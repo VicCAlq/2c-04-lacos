@@ -173,9 +173,17 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 Crie um laço de repetição while que armazene em uma variável a soma dos números
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
-// Escreva o código da solução abaixo:
+// Escreva o código da solução abaixo:,
 
-export const resposta01 = false
+let a = 0;
+let soma = 0;
+while(a <= 32){
+   soma = soma + a;
+   a++;
+   console.log(soma);
+}
+
+export const resposta01 = 528;
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -183,7 +191,15 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+let a = 0;
+let c = 1;
+while(c <= 50) {
+    a += c;
+    c += 2;
+    console.log(a);
+}
+
+export const resposta02 = 625;
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
