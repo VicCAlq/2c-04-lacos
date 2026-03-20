@@ -174,16 +174,28 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta01 = false
+let soma = 0
+let nI = 1
+const nF = 32
+while (nI <= nF) {
+	soma += nI++
+}
+export const resposta01 = soma
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta02 = false
+soma = 0
+nI = 1
+nF = 50
+while (nI <= nF) {
+	soma += nI
+	nI += 2
+}
+	
+export const resposta02 = soma
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -192,16 +204,29 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
+let nNeg = 0
+nI = 0
+while (nI < numeros.length) {
+	nNeg += numeros[nI++] < 0 ? 1 : 0
+}
 
-export const resposta03 = false
+export const resposta03 = nNeg
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+soma = 0
+nI = 7
+nF = 100
+while (nI <= nF) {
+	soma += nI
+	nI += 7
+}
 
-export const resposta04 = false
+export const resposta04 = soma
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -220,8 +245,14 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+const nomesReverso = []
+nI = nomes.length - 1
+nF = 0
+while (nI >= nF) {
+	nomesReverso.push(nomes[nI--])
+}
 
-export const resposta05 = false
+export const resposta05 = Array.from(nomesReverso)
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -229,24 +260,39 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+const nomesIndicePar = []
+nI = 0
+while (nI < nomes.length) {
+	nomesIndicePar.push(nomes[nI])
+	nI += 2
+}
 
-export const resposta06 = false
+export const resposta06 = Array.from(nomesIndicePar)
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta07 = false
+const nomesPequenos = []
+nI = 0
+while (nI < nomes.length) {
+	if (nomes[nI].length <= 5)
+		nomesPequenos.push(nomes[nI++])
+}
+export const resposta07 = Array.from(nomesPequenos)
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
 escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+const nomesCaixaAlta = []
+nI = 0
+while (nI < nomes.length)
+	nomesCaixaAlta.push(nomes[nI++].toUpperCase())
 
-export const resposta08 = false
+export const resposta08 = Array.from(nomesCaixaAlta)
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
