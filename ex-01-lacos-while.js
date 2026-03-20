@@ -174,6 +174,12 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
+let acumulador = 0
+let contador = 1
+while (contador <= 32) {
+    acumulador = acumulador + contador
+    contador++}
+console.log (acumulador)
 
 export const resposta01 = false
 
@@ -182,7 +188,11 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-
+let acumulador = 0
+let contador = 1
+while (contador <= 50) {
+  
+}
 export const resposta02 = false
 
 /* Questão 03
