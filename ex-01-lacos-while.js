@@ -174,7 +174,11 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-
+let cont = 1
+let acumulo = 32 
+while (contador <= 32 ) { 
+  acumulador = acumulador + contador 
+  contador++
 export const resposta01 = false
 
 /* Questão 02
@@ -182,16 +186,29 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-
+let a = 0 
+let c = 1
+  while (c <= 50 {
+    a += c 
+    c += 2 
+    console.log(a)
+    
 export const resposta02 = false
-
+    
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
 array abaixo. Armazene a quantidade encontrada na variável resposta03.
 
+c
+
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
-// Escreva o código da solução abaixo:
+    let n = n < 0
+    let nn = nn > 0 
+    while [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2] 
+    n + n
+    nn + nn 
+    console.log(n)
 
 export const resposta03 = false
 
