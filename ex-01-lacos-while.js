@@ -209,6 +209,8 @@ export const resposta02 = (() => {
 })()
 
 
+
+
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
 array abaixo. Armazene a quantidade encontrada na variável resposta03.
