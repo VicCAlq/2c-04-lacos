@@ -174,8 +174,13 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta01 = false
+let number = 0;
+let acumulador = 0;
+while (acumulador <= 32) {
+  acumulador = number
+  number++
+  console.log(number) 
+}
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
