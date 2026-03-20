@@ -339,6 +339,7 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
+
 export const resposta09 = (() => {
   const resposta = []
   let i = 0
