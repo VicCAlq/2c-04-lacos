@@ -192,16 +192,30 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
+let contador = 0
+let i = 0
 
-export const resposta03 = false
+while (i < numeros.length) {
+  contador += numeros[i++] < 0
+}
+console.log(contador)
+export const resposta03 = contador
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let contador = 0
+let numero = 7
 
-export const resposta04 = false
+while (numero <= 100) {
+  contador += numero
+  numero += 7
+}
+console.log(contador)
+export const resposta04 = contador
 
 // Lista para as questões 5 a 10:
 const nomes = [
