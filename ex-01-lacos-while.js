@@ -175,15 +175,16 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
-let i = 1
-let soma = 0
+let i1 = 1
+let soma1 = 0
 
-while (i <= 32) {
-  soma += i
-  i++
+while (i1 <= 32) {
+  soma1 += i1
+  i1++
 }
 
-export const resposta01 = soma
+export const resposta01 = soma1
+
 
 
 /* Questão 02
@@ -192,17 +193,18 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 
-let i = 1
-let soma = 0
+let i2 = 1
+let soma2 = 0
 
-while (i <= 50) {
-  if (i % 2 !== 0) {
-    soma += i
+while (i2 <= 50) {
+  if (i2 % 2 !== 0) {
+    soma2 += i2
   }
-  i++
+  i2++
 }
 
-export const resposta02 = soma
+export const resposta02 = soma2
+
 
 
 /* Questão 03
@@ -214,17 +216,17 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 // Escreva o código da solução abaixo:
 
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
-let i = 0
-let contador = 0
+let i3 = 0
+let contador3 = 0
 
-while (i < numeros.length) {
-  if (numeros[i] < 0) {
-    contador++
+while (i3 < numeros.length) {
+  if (numeros[i3] < 0) {
+    contador3++
   }
-  i++
+  i3++
 }
 
-export const resposta03 = contador
+export const resposta03 = contador3
 
 
 /* Questão 04
@@ -233,17 +235,17 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 
-let i = 1
-let soma = 0
+let i4 = 1
+let soma4 = 0
 
-while (i <= 100) {
-  if (i % 7 === 0) {
-    soma += i
+while (i4 <= 100) {
+  if (i4 % 7 === 0) {
+    soma4 += i4
   }
-  i++
+  i4++
 }
 
-export const resposta04 = soma
+export const resposta04 = soma4
 
 
 // Lista para as questões 5 a 10:
@@ -264,15 +266,15 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-let i = nomes.length - 1
-let lista = []
+let i5 = nomes.length - 1
+let lista5 = []
 
-while (i >= 0) {
-  lista.push(nomes[i])
-  i--
+while (i5 >= 0) {
+  lista5.push(nomes[i5])
+  i5--
 }
 
-export const resposta05 = lista
+export const resposta05 = lista5
 
 
 /* Questão 06
@@ -282,17 +284,17 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-let i = 0
-let lista = []
+let i6 = 0
+let lista6 = []
 
-while (i < nomes.length) {
-  if (i % 2 === 0) {
-    lista.push(nomes[i])
+while (i6 < nomes.length) {
+  if (i6 % 2 === 0) {
+    lista6.push(nomes[i6])
   }
   i++
 }
 
-export const resposta06 = lista
+export const resposta06 = lista6
 
 
 /* Questão 07
@@ -301,17 +303,17 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-let i = 0
-let lista = []
+let i7 = 0
+let lista7 = []
 
-while (i < nomes.length) {
-  if (nomes[i].length <= 5) {
-    lista.push(nomes[i])
+while (i7 < nomes.length) {
+  if (nomes[i7].length <= 5) {
+    lista7.push(nomes[i7])
   }
-  i++
+  i7++
 }
 
-export const resposta07 = lista
+export const resposta07 = lista7
 
 
 /* Questão 08
@@ -320,15 +322,15 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-let i = 0
-let lista = []
+let i8 = 0
+let lista8 = []
 
-while (i < nomes.length) {
-  lista.push(nomes[i].toUpperCase())
-  i++
+while (i8 < nomes.length) {
+  lista8.push(nomes[i8].toUpperCase())
+  i8++
 }
 
-export const resposta08 = lista
+export const resposta08 = lista8
 
 
 /* Questão 09
@@ -338,20 +340,20 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-let i = 0
-let lista = []
+let i9 = 0
+let lista9 = []
 
-while (i < nomes.length) {
+while (i9 < nomes.length) {
   let letra = nomes[i][0].toLowerCase()
 
   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
-    lista.push(nomes[i])
+    lista9.push(nomes[i9])
   }
 
-  i++
+  i9++
 }
 
-export const resposta09 = lista
+export const resposta09 = lista9
 
 
 /* Questão 10
@@ -361,14 +363,14 @@ apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável 
 */
 // Escreva o código da solução abaixo:
 
-let i = 0
-let maior = ""
+let i10 = 0
+let maior10 = ""
 
-while (i < nomes.length) {
-  if (nomes[i].length > maior.length) {
+while (i10 < nomes.length) {
+  if (nomes[i10].length > maior.length) {
     maior = nomes[i]
   }
-  i++
+  i10++
 }
 
 export const resposta10 = maior
