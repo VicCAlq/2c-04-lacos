@@ -230,16 +230,16 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 // Escreva o código da solução abaixo:
 
 let soma = 0
-let indice = 1
+let indicee = 1
 
-while (indice <= 100) {
-  if (indice % 7 === 0) {
-    soma += indice
+while (indicee <= 100) {
+  if (indicee % 7 === 0) {
+    soma += indicee
   }
-  indice++
+  indicee++
 }
 
-console.log(indice, soma)
+console.log(indicee, soma)
 
 export const resposta04 = soma
 
@@ -262,11 +262,11 @@ na variável resposta05.
 // Escreva o código da solução abaixo:
 
 let nomess = []
-let indice = nomes.length - 1
+let indiceee = nomes.length - 1
 
 while (i5 >= 0) {
   nomesArray.push(nomes[i5])
-  indice--
+  indiceee--
 }
 
 console.log(nomess,nomes)
@@ -281,13 +281,13 @@ Armazene o novo array na variável resposta06.
 // Escreva o código da solução abaixo:
 
 let resposta = []
-let indice = 0
+let indiceeee = 0
 
-while (indice < nomes.length) {
-  if (indice % 2 === 0) {
-    resposta.push(nomes[indice])
+while (indiceeee < nomes.length) {
+  if (indiceeee % 2 === 0) {
+    resposta.push(nomes[indiceeee])
   }
-  indice++
+  indiceeee++
 }
 console.log(nomes)
 
@@ -300,13 +300,13 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 // Escreva o código da solução abaixo:
 
 let z = []
-let indice = 0
+let indiceeeee = 0
 
-while (indice < nomes.length) {
-  if (nomes[indice].length <= 5) {
-    z.push(nomes[indice])
+while (indiceeeee < nomes.length) {
+  if (nomes[indiceeeee].length <= 5) {
+    z.push(nomes[indiceeeee])
   }
-  indice++
+  indiceeeee++
 }
 console.log(z)
 
