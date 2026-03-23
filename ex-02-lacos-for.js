@@ -238,7 +238,7 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 */
 // Escreva o código da solução abaixo:
 
-let quantidade = 0
+let multiplos = 0
 let quantidade = 0
 
 for (let i = 1; i <= 200; i++) {
@@ -248,7 +248,7 @@ for (let i = 1; i <= 200; i++) {
   }
 }
 
-export const resposta04 = quantidade/quantidade
+export const resposta04 = multiplos/quantidade
 
 
 // Lista para as questões 5 a 8:
