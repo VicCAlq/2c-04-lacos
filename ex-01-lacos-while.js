@@ -261,9 +261,9 @@ export const resposta05 = nomes1
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
 apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 4, 6, 8).
-Armazene o novo array na variável resposta06.
+Armazene o novo array na variável resposta06.           
 */
-// Escreva o código da solução abaixo:
+//Escreva o código da solução abaixo:
 let nomes2 = []
 let fim1 = 0
 while(fim1 <= 8){
@@ -278,8 +278,16 @@ Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+let nomes3 = []
+let fim2 = 0
+while(fim2 <= 9){
+  if(nomes[fim2].length <= 5){
+    nomes3 += nomes[fim2] 
+  }
+  fim2++
+}
 
-export const resposta07 = false
+export const resposta07 = nomes3
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
