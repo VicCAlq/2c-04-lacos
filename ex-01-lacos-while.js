@@ -181,7 +181,7 @@ while (number <= 32) {
   number++;
   console.log(acumulador) 
 }
-export const resposta02 = 528;
+export const resposta01 = 528;
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -206,24 +206,40 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
-let pulaPula = 0;
+let contador = 0;
+let elementos = numeros.length;
+let quantidadeDeNegativos = 0;
 
-num < 0
-while (pulaPula < numeros.length) {
-    console.log(numeros[pulaPula])
-    pulaPula += 1
+while(indice <= elementos){
+    if(numeros[indice] < 0){
+        quantidadeDeNegativos++;
+    }
+    indice++;
 }
+
+console.log(quantidadeDeNegativos)
+
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+export const resposta03 = 6;
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
+let numberZero = 0;
+let numberOne = 1;
+
+while(numberOne <= 100){
+  if (numberOne % 7 ===0) {
+    numberZero += numberOne
+  }
+  numberOne++
+}
+console.log(numberZero);
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+export const resposta04 = 735;
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -241,18 +257,39 @@ Dada a lista de nomes acima, utilize um laço de repetição while para criar um
 novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
+const nomes = [  "Ana", "Bruno", "Carla", "Daniel", "Eduarda",  "Fábio", "Gabriela", "Hugo", "Isabela", "João"]
+let newList = [];
+let monstrosSaDaDisneyPixar = nomes.length -1;
+
+while (monstrosSaDaDisneyPixar >= 0) {
+     newList.push(nomes[monstrosSaDaDisneyPixar])
+     monstrosSaDaDisneyPixar++
+}
+console.log(newList);
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+export const resposta05 = newList;
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
 apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 4, 6, 8).
 Armazene o novo array na variável resposta06.
 */
+const nomes = [  "Ana", "Bruno", "Carla", "Daniel", "Eduarda",  "Fábio", "Gabriela", "Hugo", "Isabela", "João"];
+let contador03 = 0;
+let elementosDaDisneyPixar = nomes.length;
+let newList02 = [];
+
+while (contador03 <= elementosDaDisneyPixar) {
+    if (contador03 % 2 === 0) {
+      newList02.push(elementosDaDisneyPixar[contador03])
+    }
+    contador03++
+}
+console.log(newList02);
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+export const resposta06 = [0, 2, 4, 6, 8];
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
@@ -284,6 +321,16 @@ Finalizando com a lista de nomes, encontre o nome mais longo da lista.
 Se houver empate (mais de um nome com o mesmo comprimento máximo), armazene
 apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável resposta10.
 */
+let longasso = [];
+let contador02 = 0; 
+
+while (contador02 < nomes.length) {
+  if (nomes[contador02].length > longasso.length) {
+      longasso = nomes[contador02];
+        }
+          contador02++
+          }
+          console.log(longasso)
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+export const resposta10 = Gabriela;
