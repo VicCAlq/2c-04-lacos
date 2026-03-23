@@ -249,8 +249,14 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+let nomes1 = []
+let fim = 0
+while(fim <= 9){
+  nomes1 += nomes.pop()
+  fim++
+}
 
-export const resposta05 = false
+export const resposta05 = nomes1
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -258,8 +264,14 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let nomes2 = []
+let fim1 = 0
+while(fim1 <= 8){
+  nomes2 += nomes[fim1]
+  fim1 += 2
+}
 
-export const resposta06 = false
+export const resposta06 = nomes2
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
