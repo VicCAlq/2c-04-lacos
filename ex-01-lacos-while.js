@@ -207,21 +207,17 @@ Utilizando um laço de repetição while, faça a soma de todos os múltiplos de
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-let contador = 0
+let adicionador = 0
 let numero = 7
 
 while (numero <= 100) {
-  contador += numero
+  adicionador += numero
   numero += 7
-}
-console.log(contador)
-export const resposta04 = contador
+}console.log(adicionador)
+export const resposta04 = adicionador
 
 // Lista para as questões 5 a 10:
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
+
 
 /* DICA
 Lembrem-se que para JavaScript, textos são listas de caracteres, e portanto possuem
@@ -234,7 +230,11 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
-
+let novaLista = []
+let i = 0
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João" ]
 export const resposta05 = false
 
 /* Questão 06
