@@ -177,7 +177,7 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 let contador0 = 0
 let acumulador0 = 0
 while (contador0 <= 32){
- acumulador0 = acumulador0 + contador0
+ acumulador0 += contador0
  contador0++
 }
 export const resposta01 = acumulador0
@@ -193,7 +193,7 @@ while (contador1 <= 50) {
   if (contador1 % 2 !== 0) {
     acumulador1 += contador1
   }
-  contador1 += 1
+  contador1++
 }
 export const resposta02 = acumulador1
 /* Questão 03
@@ -204,24 +204,30 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
-let indice = 0
-let seila = 0
-while (indice < numeros.length) {
-  if (numeros[indice] < 0) {
-    console.log(numeros[indice])
-    seila = indice
+let indice0 = 0
+let contador2 = 0
+while (indice0 < numeros.length) {
+  if (numeros[indice0] < 0) {
+    contador2++
   }
-  indice++
+  indice0++
 }
-export const resposta03 = seila
-console.log(resposta03)
+export const resposta03 = contador2
+
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta04 = false
+let contador3 = 0
+let acumulador3 = 0
+while (contador3 <= 100) {
+  if (contador3 % 7 === 0) {
+    acumulador3 += contador3
+  }
+  contador3++
+}
+export const resposta04 = acumulador3
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -240,8 +246,13 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta05 = false
+let indice1 = nomes.length - 1
+const alunos0 = []
+while (indice1 >= 0) {
+  alunos0.push(nomes[indice1])
+  indice1--
+}
+export const resposta05 = alunos0
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -249,24 +260,43 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta06 = false
+let indice2= 0
+const alunos1 = []
+while (indice2 < nomes.length) {
+  if (indice2 % 2 === 0) {
+    alunos1.push(nomes[indice2])
+  }
+  indice2++
+}
+export const resposta06 = alunos1
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta07 = false
+let indice3 = 0
+const alunos2 = []
+while (indice3 < nomes.length) {
+  if (nomes[indice3].length <= 5) {
+    alunos2.push(nomes[indice3])
+  }
+  indice3++
+}
+export const resposta07 = alunos2
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
 escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta08 = false
+let indice4 = 0
+const alunos3 = []
+while (indice4 < nomes.length) {
+  alunos3.push(nomes[indice4].toUpperCase())
+  indice4++
+}
+export const resposta08 = alunos3
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
@@ -274,8 +304,18 @@ que começam com vogal (considere A, E, I, O, U, inclusive acentuadas se houver)
 Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+let indice5 = 0
+const alunos4 = []
+while (indice5 < nomes.length) {
+  const primeiraLetra = nomes[indice5][0].toUpperCase()
+  if (primeiraLetra === 'A' || primeiraLetra === 'E' || primeiraLetra === 'I' || primeiraLetra === 'O' || primeiraLetra === 'U') {
+    alunos4.push(nomes[indice5])
+  }
+  indice5++
+}
 
-export const resposta09 = false
+
+export const resposta09 = alunos4
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
@@ -283,5 +323,13 @@ Se houver empate (mais de um nome com o mesmo comprimento máximo), armazene
 apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável resposta10.
 */
 // Escreva o código da solução abaixo:
+let indice6 = 0
+let nomeLongo = ""
+while (indice6 < nomes.length) {
+  if (nomes[indice6].length > nomeLongo.length){
+    nomeLongo = nomes[indice6]
+  }
+  indice6++
+}
 
-export const resposta10 = false
+export const resposta10 = nomeLongo
