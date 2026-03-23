@@ -6,12 +6,12 @@ Ele segue os mesmos princípios, mas segue uma sintaxe diferente:
 
 // PSEUDO-CÓDIGO
 for (valor inicial do contador; condição para o contador; mudança do contador) {
-  código a ser executado repetidamente
+	código a ser executado repetidamente
 }
 
 // CÓDIGO REAL
 for (let contador = 0; contador <= 20; contador = contador + 1) {
-  console.log(contador)
+	console.log(contador)
 }
 
 Vamos comparar com o loop de while do exercício anterior:
@@ -19,8 +19,8 @@ Vamos comparar com o loop de while do exercício anterior:
 let contador = 0
 
 while (contador <= 20) {
-  console.log(contador)
-  contador = contador + 1
+	console.log(contador)
+	contador = contador + 1
 }
 
 A diferença principal é que na sintaxe do for incluimos tudo referente ao 
@@ -47,7 +47,7 @@ Vamos ver os exemplos do exercício anterior na sintaxe de for:
 1. Realizar algo em sequência:
 
 for (let comeco = 0; comeco <= fim; comeco++) {
-  console.log(comeco)
+	console.log(comeco)
 }
 
 - O código acima imprime os números de 0 a 10
@@ -55,7 +55,7 @@ for (let comeco = 0; comeco <= fim; comeco++) {
 2. Realizar algo em sequência inversa:
 
 for (let comeco = 10; comeco >= fim; comeco--) {
-  console.log(comeco)
+	console.log(comeco)
 }
 
 - O código acima imprime os números de 10 a 0
@@ -65,7 +65,7 @@ for (let comeco = 10; comeco >= fim; comeco--) {
 let acumulador = 0
 
 for (let valor = 3; valor <= 9; valor = valor + 1) {
-  acumulador += valor
+	acumulador += valor
 }
 
 - O código acima vai calcular a soma de todos os números de 3 a 9 (é 42)
@@ -75,7 +75,7 @@ for (let valor = 3; valor <= 9; valor = valor + 1) {
 let nomes = ["arnoldo", "betolino", "carmem", "denise", "érica", "fátima"]
 
 for (let indice = 0; indice < nomes.length; indice += 1) {
-  nomes[indice] = nomes[indice].toUpperCase()
+	nomes[indice] = nomes[indice].toUpperCase()
 }
 
 - O código acima acessa todos os itens da lista e deixa em maiúsculas
@@ -85,9 +85,9 @@ for (let indice = 0; indice < nomes.length; indice += 1) {
 let numeros = [3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 19]
 
 for (let indice = 0; indice < numeros.length; indice += 1) {
-  if (numeros[indice] % 2 === 0) {
-    console.log(numeros[indice])
-  }
+	if (numeros[indice] % 2 === 0) {
+    	console.log(numeros[indice])
+	}
 }
 
 - O código acima só imprime os números pares da lista
@@ -97,7 +97,7 @@ for (let indice = 0; indice < numeros.length; indice += 1) {
 let numeros = [3, 4, 6, 7, 9, 11, 12, 13, 14, 16, 18, 19]
 
 for (let indice = 0; indice < numeros.length; indice += 3) {
-  console.log(numeros[indice])
+	console.log(numeros[indice])
 }
 
 - O código acima imprime os números da lista pulando de 3 em 3 índices
@@ -105,15 +105,15 @@ for (let indice = 0; indice < numeros.length; indice += 3) {
 7. Extrair valores de uma lista e criar outra
 
 const nomes = [
-  "arnoldo", "betolino", "cadu", "denise", "érica", 
-  "ferdinanda", "gina", "helen", "ingride", "jeremias"
+	"arnoldo", "betolino", "cadu", "denise", "érica", 
+	"ferdinanda", "gina", "helen", "ingride", "jeremias"
 ]
 const nomesLongos = []
 
 for (let indice = 0; indice < nomes.length; indice += 1) {
-  if (nomes[indice].length > 6) {
-    nomesLongos.push(nomes[indice])
-  }
+	if (nomes[indice].length > 6) {
+		nomesLongos.push(nomes[indice])
+	}
 }
 
 - O código acima vai copiar todos os nomes com mais de 6 letras para a lista
@@ -124,7 +124,7 @@ e incremento do contador, pois mesmo em um "for" é possível criar situações
 indesejadas:
 
 for (let contador = 0; contador !== 5; contador += 2) {
-  // resulta em um loop infinito: Mesmo caso do exemplo do exercício 01
+	// resulta em um loop infinito: Mesmo caso do exemplo do exercício 01
 }
 
 Como frequentemente utilizamos o loop de for para interagir com listas, ele possui
@@ -132,14 +132,14 @@ também uma outra sintaxe, mais diretamente voltada para isso:
 
 // EM PSEUDO-CÓDIGO:
 for (cada item da lista) {
-  código a ser executado
+	código a ser executado
 }
 
 // EM CÓDIGO REAL:
 const lista = ["casa", "camelo", "cera", "coxinha", "cinto", "cocada", "computador", "cd"]
 
 for (let item of lista) {
-  console.log(item)
+	console.log(item)
 }
 
 Nesta versão do loop, não precisamos acessar cada item da lista usando a sintaxe
@@ -166,7 +166,7 @@ E qual a desvantagem disso?
    const acompanhamento = ["feijão", "molho bolonhesa", "goiabada", "frango"]
 
    for (let indice = 0; indice < comida.length; indice++) {
-     console.log(comida[indice], " com ", acompanhamento[indice])
+       console.log(comida[indice], " com ", acompanhamento[indice])
    }
 
    Resulta em:
@@ -189,6 +189,9 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
 // Escreva o código da solução abaixo:
+let soma = 0
+for (let i = 1; i <= 100; i++)
+	soma += i
 
 export const resposta01 = false
 
