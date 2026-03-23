@@ -208,22 +208,41 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+let indice = 0;
+let elementos = numeros.length;
+let quantDeNumerosNegativos = 0;
+while(indice <= elementos){
+    if(numeros[indice] < 0 ){
+        quantDeNumerosNegativos++;
+    }
+    indice++;
+}
+console.log(quantDeNumerosNegativos);
 
-export const resposta03 = false
+
+export const resposta03 = 6;
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let primeiroNumero = 0;
+let variavelX = 1;
 
-export const resposta04 = false
+while (variavelX <= 100) {
+  if (variavelX % 7 === 0) {
+    primeiroNumero += variavelX;
+  }
+  variavelX++;
+}
+console.log(primeiroNumero)
+
+export const resposta04 = 735;
 
 // Lista para as questões 5 a 10:
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
+const nomes = ["Ana", "Bruno", "Carla", "Daniel", "Eduarda", "Fábio", "Gabriela", "Hugo", "Isabela", "João"];
 
 /* DICA
 Lembrem-se que para JavaScript, textos são listas de caracteres, e portanto possuem
@@ -236,8 +255,15 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+const newList = [];
+let indice = nomes.length - 1;
 
-export const resposta05 = false
+while(indice >= 0){
+    newList.push(nomes[indice]);
+    indice--; 
+}
+console.log(newList)
+export const resposta05 = newList;
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -245,16 +271,38 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let indiceOne = 0;
+let elemientos = nomes.length;
+const novoArray = [];
+while(indiceOne < elemientos){
+    if(indiceOne % 2 === 0){
+        novoArray.push(indiceOne);
+    }
+    indiceOne++;
+}
+console.log(novoArray)
 
-export const resposta06 = false
+export const resposta06 = novoArray;
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
-*/
+*/  
 // Escreva o código da solução abaixo:
+let indiceTwo = 0;
+const novissimoArray = [];
+let elementosDoAvatar = nomes.length - 1;
 
-export const resposta07 = false
+while(indiceTwo <= elementosDoAvatar){
+    if(nomes[indiceTwo].length <= 5){
+        novissimoArray.push(nomes[indiceTwo]);
+    }
+    indiceTwo++;
+}
+
+console.log(novissimoArray);
+
+export const resposta07 = novissimoArray;
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
@@ -262,7 +310,18 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+const novaraoArray = [];
+let indiceThree = 0;
+let tomatissimo = nomes.length - 1;
+
+while(indiceThree <= tomatissimo){
+    novaraoArray.push(nomes[indiceThree].toUpperCase());
+    indiceThree++;
+}
+console.log(novaraoArray);
+
+
+export const resposta08 = novaraoArray;
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
@@ -270,8 +329,22 @@ que começam com vogal (considere A, E, I, O, U, inclusive acentuadas se houver)
 Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+let mostrosDoApilutipse = nomes.length;
+let indiceFour = 0;
+const novoramissimoArray = [];
+const vogalis = "AEIOUÁÉÍÓÚÃÕaeiouáéíóúãõ";
 
-export const resposta09 = false
+while(indiceFour < mostrosDoApilutipse){
+    let primeiroLetra = nomes[indiceFour][0];
+    if(vogalis.includes(primeiroLetra)){
+        novoramissimoArray.push(nomes[indiceFour]);
+    }
+    indiceFour++;
+}
+console.log(novoramissimoArray)
+
+export const resposta09 = novoramissimoArray;
+
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
