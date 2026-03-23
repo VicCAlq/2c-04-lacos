@@ -176,7 +176,7 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 // Escreva o código da solução abaixo:
 let soma = 0
 let nI = 1
-const nF = 32
+let nF = 32
 while (nI <= nF) {
 	soma += nI++
 }
@@ -278,7 +278,9 @@ const nomesPequenos = []
 nI = 0
 while (nI < nomes.length) {
 	if (nomes[nI].length <= 5)
-		nomesPequenos.push(nomes[nI++])
+		nomesPequenos.push(nomes[nI])
+
+	nI++
 }
 export const resposta07 = Array.from(nomesPequenos)
 
@@ -300,8 +302,17 @@ que começam com vogal (considere A, E, I, O, U, inclusive acentuadas se houver)
 Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+const nomesVogais = []
+const vogais = ["A", "E", "I", "O", "U"]
+nI = 0
+while (nI < nomes.length) {
+	if (vogais.includes(nomes[nI][0].toUpperCase()))
+		nomesVogais.push(nomes[nI])
 
-export const resposta09 = false
+	nI++
+}
+
+export const resposta09 = Array.from(nomesVogais)
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
@@ -309,5 +320,13 @@ Se houver empate (mais de um nome com o mesmo comprimento máximo), armazene
 apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável resposta10.
 */
 // Escreva o código da solução abaixo:
+let maiorNome = ""
+nI = 0
+while (nI < nomes.length) {
+	if (nomes[nI].length > maiorNome.length)
+		maiorNome = nomes[nI]
 
-export const resposta10 = false
+	nI++
+}
+
+export const resposta10 = maiorNome
