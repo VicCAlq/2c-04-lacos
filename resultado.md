@@ -1,8 +1,8 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'contador' has already been declared |
-|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'i' has already been declared |
+|  1 | Ex 02 | ✅ | ❌ | AssertionError: expected 5050 to be type of 'object' |
+|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected 1 to be type of 'string' |
 |  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  4 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  5 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
