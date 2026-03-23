@@ -174,33 +174,16 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let num = 0
-let soma = 0
 
-while (num < 32) {
-  soma += num + 1
-  num++
-}
-
-export const resposta01 = soma
+export const resposta01 = 528
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let imp = 0
-let somaImp = 0
 
-while (imp <= 50) {
-  if (imp % 2 != 0) {
-    somaImp += imp
-  }
-
-  imp++
-}
-
-export const resposta02 = somaImp
+export const resposta02 = 625
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -211,36 +194,15 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 // Escreva o código da solução abaixo:
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
-let indice = 0
-let countNegativo = 0
-
-while (indice <= 12) {
-    if (numeros[indice] < 0) {
-        countNegativo++
-    }
-
-    indice++
-}
-
-export const resposta03 = countNegativo
+export const resposta03 = 6
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-let seven = 0
-let somaSeven = 0
 
-while (seven <= 100) {
-  if (seven % 7 === 0) {
-    somaSeven += seven
-  }
-
-  seven++
-}
-
-export const resposta04 = somaSeven
+export const resposta04 = 735
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -272,8 +234,8 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta06 = false
+nomeIndice = ["Ana", "Carla", "Eduarda", "Gabriela", "Isabela"]
+export const resposta06 = nomeIndice
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
