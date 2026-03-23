@@ -177,10 +177,10 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 let comeco = 1
 let soma = 0
 while (comeco <= 32) {
-  console.log(comeco)
-  soma = soma + comeco
+  soma += soma + comeco
   comeco++
 }
+
 export const resposta01 = soma
 
 /* Questão 02
@@ -194,7 +194,7 @@ while (c <= 50) {
     if (c % 2 !== 0) { a += c }
     c += 1
 }
-console.log(a)
+
 export const resposta02 = a
 
 /* Questão 03
@@ -204,16 +204,36 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
-export const resposta03 = false
+let indice = 0
+let Negativo = 0
+
+while (indice <= 12) {
+    if (numeros[indice] < 0) {
+        Negativo++
+    }
+    indice++
+}
+
+export const resposta03 = Negativo
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let sete = 0
+let somaSete = 0
 
-export const resposta04 = false
+while (sete <= 100) {
+  if (sete % 7 === 0) {
+    somaSete += sete
+  }
+  sete++
+}
+
+export const resposta04 = somaSete
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -232,8 +252,13 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+nomes1 = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+]
+nomes1.reverse()
 
-export const resposta05 = false
+export const resposta05 = nomes1
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -242,7 +267,17 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+let indices = 0
+let pares = []
+
+while (indices < nomes.length) {
+  if (i6 % 2 === 0) {
+    pares.push(nomes[indices])
+  }
+  indice++
+}
+
+export const resposta06 = pares
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
@@ -250,7 +285,17 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+let indices1 = 0
+let curtos = []
+
+while (indices1 < nomes.length) {
+  if (nomes[indices1].length <= 5) {
+    curtos.push(nomes[indices1])
+  }
+  indices1++
+}
+
+export const resposta07 = curtos
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
@@ -258,7 +303,15 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+let indices3 = 0
+let maiusculos = []
+
+while (indices3 < nomes.length) {
+  maiusculos.push(nomes[indices3].toUpperCase())
+  indices3++
+}
+
+export const resposta08 = maiusculos
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
@@ -267,7 +320,21 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+let indices4 = 0
+let vogais = []
+let letras = ["A", "E", "I", "O", "U"]
+
+while (indices4 < nomes.length) {
+  let primeira = nomes[indices4][0].toUpperCase()
+  
+  if (letras.includes(primeira)) {
+    vogais.push(nomes[indices4])
+  }
+
+  indices4++
+}
+
+export const resposta09 = vogais
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
@@ -276,4 +343,14 @@ apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável 
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+let indices5 = 0
+let maior = ""
+
+while (indices5 < nomes.length) {
+  if (nomes[indices5].length > maior.length) {
+    maior = nomes[indices5]
+  }
+  indices5++
+}
+
+export const resposta10 = maior
