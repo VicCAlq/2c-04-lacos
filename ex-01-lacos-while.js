@@ -175,16 +175,13 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
-let soma = 0;
-let contador = 1;
+let resposta01 = 0;
+let i = 1;
 
-while (contador <= 32) {
-  soma += contador;
-  contador++;
-
+while (i <= 32) {
+  resposta01 += i;
+  i++;
 }
-
-export const resposta01 = soma
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
