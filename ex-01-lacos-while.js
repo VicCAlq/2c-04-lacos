@@ -175,6 +175,15 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
+let soma = 0;
+let contador = 1;
+
+while (contador <= 32) {
+  soma += contador;
+  contador++;
+
+}
+
 export const resposta01 = false
 
 /* Questão 02
