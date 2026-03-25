@@ -184,7 +184,7 @@ while (contador <= 32) {
 
 }
 
-export const resposta01 = false
+export const resposta01 = soma
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
