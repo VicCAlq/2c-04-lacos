@@ -213,7 +213,6 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 let contador = 0
-let i = 0
 
 while (i < numeros.length) {
   if (numeros[i] < 0) {
