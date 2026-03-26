@@ -175,7 +175,7 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 let acumulador = 0
-let contador = 1
+let number = 1
 while (contador <= 32) {
     acumulador = acumulador + contador
     contador++}
@@ -188,12 +188,17 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let acumulador = 0
-let contador = 1
-while (contador <= 50) {
-  
+let contador = 1;
+let acumulador = 0;
+
+while (i <= 50) {
+    if (i % 2 !== 0) {
+        contador += i;
+    }
+    i++;
 }
-export const resposta02 = false
+
+export const resposta02 = contador;
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -203,7 +208,19 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+const acumulador = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+
+let i = 0;
+let contador = 0;
+
+while (i < numeros.length) {
+    if (numeros[i] < 0) {
+        contador++;
+    }
+    i++;
+}
+
+export const resposta03 = contador;
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
