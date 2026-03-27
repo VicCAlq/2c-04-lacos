@@ -244,7 +244,7 @@ let quantidade = 0
 for (let i = 1; i <= 200; i++) {
   if (i % 3 === 0) {
     multiplos += i
-    let quantidade = 0++
+    let quantidade = i++
   }
 }
 
