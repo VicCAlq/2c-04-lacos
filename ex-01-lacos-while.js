@@ -186,15 +186,15 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let soma = 0
+let soma1 = 0
 let numero = 1
 while (numero <= 50) {
-    soma += numero 
+    soma1 += numero 
     numero += 2 
   
 }
 
-export const resposta02 = soma
+export const resposta02 = soma1
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -252,12 +252,12 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-let indice = nomes.length - 1
+let indice1 = nomes.length - 1
 let invertido = []
 
-while (indice >= 0) {
-  invertido.push(nomes[indice])
-  indice--
+while (indice1 >= 0) {
+  invertido.push(nomes[indice1])
+  indice1--
 }
 
 export const resposta05 = invertido
@@ -276,7 +276,7 @@ while (indices < nomes.length) {
   if (indices % 2 === 0) {
     pares.push(nomes[indices])
   }
-  indice++
+  indices++
 }
 
 export const resposta06 = pares
@@ -314,18 +314,18 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-let indices4 = 0
+let indices2 = 0
 let vogais = []
 let letras = ["A", "E", "I", "O", "U"]
 
-while (indices4 < nomes.length) {
-  let primeira = nomes[indices4][0].toUpperCase()
+while (indices2 < nomes.length) {
+  let primeira = nomes[indices2][0].toUpperCase()
   
   if (letras.includes(primeira)) {
-    vogais.push(nomes[indices4])
+    vogais.push(nomes[indices2])
   }
 
-  indices4++
+  indices2++
 }
 
 export const resposta09 = vogais
@@ -337,14 +337,14 @@ apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável 
 */
 // Escreva o código da solução abaixo:
 
-let indices5 = 0
+let indices3 = 0
 let maior = ""
 
-while (indices5 < nomes.length) {
-  if (nomes[indices5].length > maior.length) {
-    maior = nomes[indices5]
+while (indices3 < nomes.length) {
+  if (nomes[indices3].length > maior.length) {
+    maior = nomes[indices3]
   }
-  indices5++
+  indices3++
 }
 
 export const resposta10 = maior
