@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 |  1 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  2 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
