@@ -386,5 +386,4 @@ for (let items6 of petsExoticos) {
     break
   }
 }
-export const resposta12 =bichos2
-console.log(resposta12)
+export const resposta12 = bichos2
