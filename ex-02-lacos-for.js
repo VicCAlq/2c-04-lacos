@@ -190,7 +190,13 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+let resposta01 = 0;
+
+for (let ayanoob = 1; ayanoob <= 100; ayanoob++) {
+    console.log(resposta01 += ayanoob); 
+}
+
+export const resposta01 = 5050
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
@@ -198,7 +204,13 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+let numeros = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50 ];
+
+for (let cavalos = 0; cavalos < numeros.length; cavalos += 2) {
+    console.log(numeros[cavalos]);
+}
+
+export const resposta02 = 25
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
