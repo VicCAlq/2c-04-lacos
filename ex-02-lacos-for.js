@@ -278,8 +278,9 @@ na variável resposta07.
 // Escreva o código da solução abaixo:
 const itensNomeLongo = []
 for (let n = 0; n < itensDomesticos; n++) {
-	if (itensDomesticos[n].length > 6)
-		itensNomeLongo.push(itensDomesticos[n])
+	let itemNomezao = itensDomesticos[n]
+	if (itemNomezao.length > 6)
+		itensNomeLongo.push(itemNomezao)
 }
 
 export const resposta07 = Array.from(itensNomeLongo)
