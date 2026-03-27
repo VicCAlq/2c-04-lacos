@@ -234,7 +234,7 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 // Escreva o código da solução abaixo:
 let acumulador3 = 0
 let i = 0
-for (let contador3 = 1; contador3 <= 200; contador3++) {
+for (let contador3 = 0; contador3 <= 200; contador3++) {
   if (contador3 % 3 === 0) {
     acumulador3 += contador3
     i++
@@ -242,6 +242,7 @@ for (let contador3 = 1; contador3 <= 200; contador3++) {
 }
 
 export const resposta04 = acumulador3 / i
+console.log(resposta04)
 
 
 // Lista para as questões 5 a 8:
