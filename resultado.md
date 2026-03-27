@@ -1,6 +1,6 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'a' has already been declared |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'indice' has already been declared |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
