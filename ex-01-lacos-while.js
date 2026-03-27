@@ -174,28 +174,27 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let comeco = 1
-let soma = 0
-while (comeco <= 32) {
-  soma += soma + comeco
-  comeco++
+let começo = 0;
+let soma = 0;
+while(começo <= 32) {
+  soma = soma + começo
+  começo++
 }
-
 export const resposta01 = soma
-
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let a = 0
-let c = 1
-while (c <= 50) {
-    if (c % 2 !== 0) { a += c }
-    c += 1
+let soma = 0
+let numero = 1
+while (numero <= 50) {
+    soma += numero 
+    numero += 2 
+  
 }
 
-export const resposta02 = a
+export const resposta02 = soma
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -207,23 +206,23 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
 let indice = 0
-let Negativo = 0
+let negativo = 0
 
-while (indice <= 12) {
+while (indice < numeros.length) {
     if (numeros[indice] < 0) {
-        Negativo++
+        negativo++
     }
     indice++
 }
 
-export const resposta03 = Negativo
+export const resposta03 = negativo
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-let sete = 0
+let sete = 1
 let somaSete = 0
 
 while (sete <= 100) {
@@ -252,13 +251,16 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
-nomes1 = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
-nomes1.reverse()
 
-export const resposta05 = nomes1
+let indice = nomes.length - 1
+let invertido = []
+
+while (indice >= 0) {
+  invertido.push(nomes[indice])
+  indice--
+}
+
+export const resposta05 = invertido
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -271,7 +273,7 @@ let indices = 0
 let pares = []
 
 while (indices < nomes.length) {
-  if (i6 % 2 === 0) {
+  if (indices % 2 === 0) {
     pares.push(nomes[indices])
   }
   indice++
@@ -303,15 +305,7 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-let indices3 = 0
-let maiusculos = []
-
-while (indices3 < nomes.length) {
-  maiusculos.push(nomes[indices3].toUpperCase())
-  indices3++
-}
-
-export const resposta08 = maiusculos
+export const resposta08 = false
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
