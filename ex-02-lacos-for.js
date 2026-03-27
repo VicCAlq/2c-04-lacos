@@ -66,7 +66,7 @@ let acumulador = 0
 
 for (let valor = 3; valor <= 9; valor = valor + 1) {
   acumulador += valor
-}
+  }
 
 - O código acima vai calcular a soma de todos os números de 3 a 9 (é 42)
 
@@ -188,17 +188,30 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 8 questões
 Utilizando um laço de repetição for, calcule a soma de todos os números de 1 a 100
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
-// Escreva o código da solução abaixo:
 
-export const resposta01 = false
+// Escreva o código da solução abaixo:
+let contador05 = 0;
+
+for (let valorant = 0; valorant <= 100;  valorant++) {
+  contador05 += valorant;
+}
+console.log(contador05)
+
+export const resposta01 = 5050
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
 1 e 50 (incluindo o 1 e 50). Armazene a quantidade encontrada na variável resposta02.
 */
 // Escreva o código da solução abaixo:
+let contador06 = 0;
 
-export const resposta02 = false
+for (let luca = 1; luca <= 50; luca+=2 ) {
+    contador06++
+}
+console.log(contador06)
+
+export const resposta02 = 25
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
@@ -206,8 +219,17 @@ negativos entre -100 e -1 (incluindo o -100). Armazene o resultado na
 variável resposta03.
 */
 // Escreva o código da solução abaixo:
+let contador07 = 0;
 
-export const resposta03 = false
+for(let gojo = -100; gojo <= -1; gojo++) {
+  if (gojo % 2 === 0) {
+    contador07++
+  }
+
+}
+console.log(contador07)
+
+export const resposta03 = 50
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
@@ -215,6 +237,19 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 (pode ser decimal) na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+
+let quant3 = 0;
+let counterPiuPiu = 0;
+let finalBoss = 0;
+for(let zoom = 1; zoom <= 200; zoom++){
+    if(zoom % 3 === 0){
+        counterPiuPiu++;
+        quant3 += zoom;
+    }
+    finalBoss = quant3 / counterPiuPiu;
+}
+
+console.log(finalBoss)
 
 export const resposta04 = false
 
@@ -232,7 +267,7 @@ Armazene o novo array na variável resposta05.
 
 */
 // Escreva o código da solução abaixo:
-
+let contador09 = 
 export const resposta05 = false
 
 /* Questão 06
