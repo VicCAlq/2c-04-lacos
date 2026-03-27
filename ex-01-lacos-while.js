@@ -187,11 +187,11 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let i = 1;
+let idx1 = 1;
 let ai = 0;
-while (i <= 50) {
-  ai += i
-  i += 2
+while (idx1 <= 50) {
+  ai += idx1
+  idx1 += 2
 }
 export const resposta02 = ai
 
@@ -255,11 +255,11 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-let i = 0
+let i2 = 0
 let nomesPares = []
-while(i <= nomes.length - 1){
-    nomesPares.push(nomes[i])
-    i+=2
+while(i2 <= nomes.length - 1){
+    nomesPares.push(nomes[i2])
+    i2+=2
 }
 export const resposta06 = nomesPares
 
