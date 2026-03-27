@@ -1,3 +1,6 @@
+Data de execução do teste: sex 27 mar 2026 11:13:40 -03
+
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | negativos is not defined |
