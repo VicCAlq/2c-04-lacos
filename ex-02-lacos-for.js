@@ -327,7 +327,7 @@ const petsExoticos = [
 // Escreva o código da solução abaixo:
 const petsR = []
 for (let pet of petsExoticos) {
-	if (pet.contains("r"))
+	if (pet.includes("r"))
 		petsR.push(pet)
 }
 
