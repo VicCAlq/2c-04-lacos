@@ -1,3 +1,6 @@
+Data de execução do teste: sex 27 mar 2026 11:13:24 -03
+
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
@@ -16,7 +19,7 @@
 |  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  7 | Ex 02 | ✅ | ❌ | AssertionError: expected [] to deeply equal [ 'cadeira', 'cortina', …(4) ] |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
