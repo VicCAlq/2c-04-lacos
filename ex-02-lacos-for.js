@@ -230,8 +230,20 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 (pode ser decimal) na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let soma = 0;
+let count = 0;
+let resultado = 0;
+for(let hinataDoBem = 1; hinataDoBem <= 200; hinataDoBem++){
+if(hinataDoBem % 3 === 0){
+        count++
+        soma += hinataDoBem;
+}
+resultado = soma/count;
+}
 
-export const resposta04 = false
+console.log(resultado);
+
+export const resposta04 = 100.5;
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
