@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | negativos is not defined |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
@@ -13,5 +13,3 @@
 | 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 13 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
-| 14 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
