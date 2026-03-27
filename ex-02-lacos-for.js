@@ -281,7 +281,6 @@ na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 respostarrw = []
-for (let i = 0; i <= itensDomesticos.length)
 export const resposta07 = false
 
 /* Questão 08
