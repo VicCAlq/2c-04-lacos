@@ -201,8 +201,13 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 1 e 50 (incluindo o 1 e 50). Armazene a quantidade encontrada na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta02 = false
+let contador = 0;
+let quantidadeDeNumeros = 0;
+for(let numeros = 1; numeros <= 50; numeros += 2){
+    contador++;
+}
+console.log(contador);
+export const resposta02 = 25;
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
@@ -210,8 +215,14 @@ negativos entre -100 e -1 (incluindo o -100). Armazene o resultado na
 variável resposta03.
 */
 // Escreva o código da solução abaixo:
-
-export const resposta03 = false
+let hinataShoyo = 0;
+for(let hinataShoyoDoMal = -100; hinataShoyoDoMal <= -1; hinataShoyoDoMal++){
+ if(hinataShoyoDoMal % 2 === 0){
+    hinataShoyo++;
+ }
+}
+console.log(hinataShoyo);
+export const resposta03 = 50;
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
