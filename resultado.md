@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | numeros is not defined |
 | ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Parse failure: The left-hand side of an assignment expression must be a variable or a property access.
