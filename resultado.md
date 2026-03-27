@@ -1,5 +1,15 @@
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | numeros is not defined |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Parse failure: The left-hand side of an assignment expression must be a variable or a property access.
-At file: /ex-02-lacos-for.js:247:21 |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | i5 is not defined |
+|  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 100.5 |
+|  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
