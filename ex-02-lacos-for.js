@@ -280,7 +280,8 @@ para criar um novo array contendo os itens com mais de 6 letras. Armazene o novo
 na variável resposta07.
 */
 // Escreva o código da solução abaixo:
-
+respostarrw = []
+for (let i = 0; i <= itensDomesticos.length)
 export const resposta07 = false
 
 /* Questão 08
@@ -348,5 +349,3 @@ const petsExoticos = [
 // Escreva o código da solução abaixo:
 
 export const resposta12 = false
-
-export const =
