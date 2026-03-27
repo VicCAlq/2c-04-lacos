@@ -189,7 +189,7 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 let a = 0
-let c = 0
+let c = 1
 while (c <= 50) {
     if (c % 2 !== 0) { a += c }
     c += 1

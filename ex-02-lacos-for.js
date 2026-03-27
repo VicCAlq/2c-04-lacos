@@ -189,12 +189,7 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-
-let soma = 0
-
-for (let numer = 1; numer <= 100; numer++) {
-  soma += numer
-}
+//
 
 export const resposta01 = soma
 
