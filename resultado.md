@@ -1,3 +1,6 @@
+Data de execução do teste: sex 27 mar 2026 11:13:51 -03
+
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
@@ -13,7 +16,7 @@
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected 99 to deeply equal 100.5 |
+|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
