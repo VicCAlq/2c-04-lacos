@@ -188,35 +188,47 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 8 questões
 Utilizando um laço de repetição for, calcule a soma de todos os números de 1 a 100
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta01 = false
+let soma01 = 0;
+for (let i = 1; i <= 100; i++) {
+    soma01 += i;
+}
+export const resposta01 = soma01;
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
 1 e 50 (incluindo o 1 e 50). Armazene a quantidade encontrada na variável resposta02.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta02 = false
+let impares = 0;
+for (let i = 1; i <= 50; i += 2) {
+    impares++;
+}
+export const resposta02 = impares;
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
 negativos entre -100 e -1 (incluindo o -100). Armazene o resultado na 
 variável resposta03.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta03 = false
+let soma03 = 0;
+for (let i = -100; i <= -2; i += 2) {
+    soma03 += i;
+}
+export const resposta03 = soma03;
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
 múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado 
 (pode ser decimal) na variável resposta04.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta04 = false
+let soma04 = 0;
+let contador04 = 0;
+for (let i = 1; i <= 200; i++) {
+    if (i % 3 === 0) {
+        soma04 += i;
+        contador04++;
+    }
+}
+export const resposta04 = soma04 / contador04;
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
@@ -228,42 +240,48 @@ const itensDomesticos = [
 /* Questão 05
 Dada a lista de itens domésticos acima, utilize um laço de repetição for (com contador)
 para criar um novo array contendo todos os itens que começam com a letra "c".
-Armazene o novo array na variável resposta05.
-
 */
-// Escreva o código da solução abaixo:
-
-export const resposta05 = false
+let resposta05 = [];
+for (let i = 0; i < itensDomesticos.length; i++) {
+    if (itensDomesticos[i][0] === "c") {
+        resposta05.push(itensDomesticos[i]);
+    }
+}
+export const resposta05 = resposta05;
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
 repetição for (com contador) para criar um novo array contendo apenas os itens que
 estão nos índices ímpares da lista original (índices 1, 3, 5, 7, 9, 11, 13).
-Armazene o novo array na variável resposta06.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta06 = false
+let resposta06 = [];
+for (let i = 1; i < itensDomesticos.length; i += 2) {
+    resposta06.push(itensDomesticos[i]);
+}
+export const resposta06 = resposta06;
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
-para criar um novo array contendo os itens com mais de 6 letras. Armazene o novo array
-na variável resposta07.
+para criar um novo array contendo os itens com mais de 6 letras.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta07 = false
+let resposta07 = [];
+for (let i = 0; i < itensDomesticos.length; i++) {
+    if (itensDomesticos[i].length > 6) {
+        resposta07.push(itensDomesticos[i]);
+    }
+}
+export const resposta07 = resposta07;
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
-(com contador) para criar um novo array contendo os itens em ordem reversa. Armazene 
-o novo array na variável resposta08.
+(com contador) para criar um novo array contendo os itens em ordem reversa.
 */
-// Escreva o código da solução abaixo:
+let resposta08 = [];
+for (let i = itensDomesticos.length - 1; i >= 0; i--) {
+    resposta08.push(itensDomesticos[i]);
+}
+export const resposta08 = resposta08;
 
-export const resposta08 = false
-
-// Lista para as questões 5 a 10:
 const petsExoticos = [
   "lagarto", "tarântula", "hamster", "cacatua", "iguana",
   "escorpião", "sagui", "jacaré", "serpente", "camaleão"
@@ -271,51 +289,48 @@ const petsExoticos = [
 
 /* Questão 09
 Dada a lista de nomes de pets exóticos acima, utilize um laço de repetição for...of
-para criar um novo array contendo todos os nomes em letras maiúsculas. Armazene o
-novo array na variável resposta09.
+para criar um novo array contendo todos os nomes em letras maiúsculas.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta09 = false
+let resposta09 = [];
+for (let pet of petsExoticos) {
+    resposta09.push(pet.toUpperCase());
+}
+export const resposta09 = resposta09;
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
 criar um novo array contendo apenas os nomes que possuem a letra "r" em qualquer posição.
-Armazene o novo array na variável resposta10.
-
-const petsExoticos = [
-  "lagarto", "tarântula", "hamster", "cacatua", "iguana",
-  "escorpião", "sagui", "jacaré", "serpente", "camaleão"
-]
 */
-// Escreva o código da solução abaixo:
-
-export const resposta10 = false
+let resposta10 = [];
+for (let pet of petsExoticos) {
+    if (pet.includes("r")) {
+        resposta10.push(pet);
+    }
+}
+export const resposta10 = resposta10;
 
 /* Questão 11
 Continuando com a lista de pets exóticos, use um laço de repetição for...of para
-contar quantos nomes têm mais de 7 letras. Armazene a quantidade encontrada na
-variável resposta11.
-
-const petsExoticos = [
-  "lagarto", "tarântula", "hamster", "cacatua", "iguana",
-  "escorpião", "sagui", "jacaré", "serpente", "camaleão"
-]
+contar quantos nomes têm mais de 7 letras.
 */
-// Escreva o código da solução abaixo:
-
-export const resposta11 = false
+let contador11 = 0;
+for (let pet of petsExoticos) {
+    if (pet.length > 7) {
+        contador11++;
+    }
+}
+export const resposta11 = contador11;
 
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
 encontrar o primeiro nome que começa com a letra "s". Se encontrar, armazene este
 nome na variável resposta12. Se não encontrar nenhum, armazene a string "não encontrado".
-
-const petsExoticos = [
-  "lagarto", "tarântula", "hamster", "cacatua", "iguana",
-  "escorpião", "sagui", "jacaré", "serpente", "camaleão"
-]
 */
-// Escreva o código da solução abaixo:
-
-export const resposta12 = false
+let resposta12 = "não encontrado";
+for (let pet of petsExoticos) {
+    if (pet[0] === "s") {
+        resposta12 = pet;
+        break;
+    }
+}
+export const resposta12 = resposta12;
