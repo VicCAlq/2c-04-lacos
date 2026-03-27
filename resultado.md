@@ -1,6 +1,9 @@
+Data de execução do teste: sex 27 mar 2026 11:13:56 -03
+
+
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | i5 is not defined |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | nomesArray is not defined |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
