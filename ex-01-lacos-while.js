@@ -265,8 +265,8 @@ na variável resposta05.
 let nomess = []
 let indiceee = nomes.length - 1
 
-while (i5 >= 0) {
-  nomesArray.push(nomes[i5])
+while (indiceee >= 0) {
+  nomesArray.push(nomes[indiceee])
   indiceee--
 }
 
