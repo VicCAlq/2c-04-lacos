@@ -189,11 +189,11 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let soma = 0
-for (let i = 0; i <= 100; i++) {
+let soma = 0;
+for (let i = 0; i <= 100; i++); {
   soma += i;
-}console.log(soma)
-export const resposta01 = soma
+}console.log(soma);
+export const resposta01 = soma;
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
@@ -202,12 +202,12 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 // Escreva o código da solução abaixo:
 let inicio = 1;
 let fim = 50;
-for (let i = 0 ; i <= fim; i++) {
- if (i % 2 !== 0) {
+for (let i = 0 ; i <= fim; i++); {
+ if (i % 2 !== 0); {
   console.log(i);  }
 }
 
-export const resposta02 = inicio
+export const resposta02 = inicio;
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
