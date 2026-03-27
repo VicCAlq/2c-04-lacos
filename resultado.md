@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 |  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ❌ | AssertionError: expected 650 to deeply equal 625 |
@@ -22,5 +22,3 @@
 | 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 13 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
-| 14 | Ex 02 | ✅ | ❌ | AssertionError: expected undefined to be type of 'object' |
