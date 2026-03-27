@@ -275,7 +275,7 @@ Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
-i7 = 0
+let i7 = 0
 let nomesA = []
 
 while (i7 <= nomes.length - 1) {
