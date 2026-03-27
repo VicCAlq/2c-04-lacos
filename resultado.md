@@ -1,4 +1,4 @@
-| Questão | Exercício | Entregue | Correto | Mensagem de erro |
+| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 | ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | i7 is not defined |
 |  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
