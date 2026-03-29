@@ -1,5 +1,5 @@
-Data de execução do teste: sex 27 mar 2026 11:12:26 -03
-
+Data de atualização: Dia 29/03/2026 às 20:24:03
+ 
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
@@ -16,7 +16,7 @@ Data de execução do teste: sex 27 mar 2026 11:12:26 -03
 |  1 | Ex 02 | ✅ | ❌ | AssertionError: expected 5051 to deeply equal 5050 |
 |  2 | Ex 02 | ✅ | ❌ | AssertionError: expected 26 to deeply equal 25 |
 |  3 | Ex 02 | ✅ | ❌ | AssertionError: expected -100 to deeply equal -2550 |
-|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected 100.5 to deeply equal 99 |
 |  5 | Ex 02 | ✅ | ❌ | AssertionError: expected [] to deeply equal [ 'cadeira', 'cortina', 'copo', …(1) ] |
 |  6 | Ex 02 | ✅ | ❌ | AssertionError: expected [ Array(8) ] to deeply equal [ Array(7) ] |
 |  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
