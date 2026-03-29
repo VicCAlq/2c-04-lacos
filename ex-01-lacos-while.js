@@ -191,7 +191,15 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+let carlosArredondado = 0
+let numero = 1
+
+while (numero <= 50){
+  carlosArredondado += numero
+    numero += 2
+    }
+
+export const resposta02 = carlos
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -201,6 +209,8 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
+//não sei fazer
+
 export const resposta03 = false
 
 /* Questão 04
@@ -209,7 +219,15 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+let geraldo = 0
+let rochele = 7
+
+while (rochele <= 100) {
+  geraldo += rochele
+  rochele += 7
+}
+
+export const resposta04 = geraldo
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -229,6 +247,8 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
+//não sei
+
 export const resposta05 = false
 
 /* Questão 06
@@ -238,7 +258,20 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+]
+
+let hehehe = []
+let omagah = 0
+
+while (omagah < nomes.length) {
+  hehehe.push(nomes[omagah])
+  omagah += 2
+}
+
+export const resposta06 = hehehe
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
@@ -246,7 +279,22 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+]
+
+let lerolero = []
+let que = 0
+
+while (que < nomes.length) {
+  if (nomes[que].length <= 5) {
+    lerolero.push(nomes[que])
+  }
+  que++
+}
+
+export const resposta07 = lerolero
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
@@ -254,7 +302,20 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+]
+
+let xiquexique = []
+let miodios = 0
+
+while (miodios < nomes.length) {
+  xiquexique.push(nomes[miodios].toUpperCase())
+  miodios++
+}
+
+export const resposta08 = xiquexique
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
@@ -263,7 +324,33 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+const nomes = [
+  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
+  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
+]
+
+let bixu = []
+let biruto = 0
+
+while (biruto < nomes.length) {
+  let primeiraLetra = nomes[biruto][0].toUpperCase()
+
+  if (
+    primeiraLetra === "A" ||
+    primeiraLetra === "E" ||
+    primeiraLetra === "I" ||
+    primeiraLetra === "O" ||
+    primeiraLetra === "U"
+  ) {
+    bixu.push(nomes[biruto])
+  }
+
+  biruto++
+}
+
+//sei fazer isso não, nessa eu pedi socorro pra IA (DEPOIS DELA EXPLICAR, EU ENTENDI)
+
+export const resposta09 = bixu
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
@@ -271,5 +358,7 @@ Se houver empate (mais de um nome com o mesmo comprimento máximo), armazene
 apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável resposta10.
 */
 // Escreva o código da solução abaixo:
+
+//sei não
 
 export const resposta10 = false
