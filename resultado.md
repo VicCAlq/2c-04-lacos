@@ -1,5 +1,5 @@
-Data de execução do teste: sex 27 mar 2026 11:11:56 -03
-
+Data de atualização: Dia 29/03/2026 às 20:27:32
+ 
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
@@ -7,7 +7,7 @@ Data de execução do teste: sex 27 mar 2026 11:11:56 -03
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 100.5 |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 99 |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
