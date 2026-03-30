@@ -199,7 +199,7 @@ while (numero <= 50){
     numero += 2
     }
 
-export const resposta02 = carlos
+export const resposta02 = carlosArredondado
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -258,11 +258,6 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
-
 let hehehe = []
 let omagah = 0
 
@@ -278,11 +273,6 @@ Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
-
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
 
 let lerolero = []
 let que = 0
@@ -302,11 +292,6 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
-
 let xiquexique = []
 let miodios = 0
 
@@ -323,11 +308,6 @@ que começam com vogal (considere A, E, I, O, U, inclusive acentuadas se houver)
 Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
-
-const nomes = [
-  "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
-  "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
 
 let bixu = []
 let biruto = 0
