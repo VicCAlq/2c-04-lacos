@@ -375,14 +375,14 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
-let quantidadeDeNumeros = 0;
+let quantidadeDeNumer = 0;
 for(bichinhos of petsExoticos){
         if(bichinhos.length > 7){
-                quantidadeDeNumeros++;
+                quantidadeDeNumer++;
         }
 }
 
-console.log(quantidadeDeNumeros);
+console.log(quantidadeDeNumer);
 
 export const resposta11 = 4;
 
