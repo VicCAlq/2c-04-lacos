@@ -190,13 +190,13 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 */
 // Escreva o código da solução abaixo:
 
-let resposta01 = 0;
+let shake = 0;
 
 for (let ayanoob = 1; ayanoob <= 100; ayanoob++) {
-    console.log(resposta01 += ayanoob); 
+    console.log(shake += ayanoob); 
 }
 
-export const resposta01 = 5050
+export const resposta01 = shake
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
@@ -219,7 +219,15 @@ variável resposta03.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+let soma03 = 0
+
+for (let i = -100; i <= -1; i++) {
+  if (i % 2 === 0) {
+    soma03 += i
+  }
+}
+
+export const resposta03 = seuamigo
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
@@ -228,7 +236,17 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+let balloons = 0
+let contador04 = 0
+
+for (let i = 1; i <= 200; i++) {
+  if (i % 3 === 0) {
+    balloons += i
+    contador04++
+  }
+}
+
+export const resposta04 = balloons
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
@@ -245,7 +263,16 @@ Armazene o novo array na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+const vitu = []
+
+for (let i = 0; i < itensDomesticos.length; i++) {
+  if (itensDomesticos[i][0] === "c") {
+    vitu.push(itensDomesticos[i])
+  }
+}
+
+
+export const resposta05 = vitu
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
@@ -255,7 +282,16 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+const auto = []
+
+for (let i = 0; i < itensDomesticos.length; i++) {
+  if (i % 2 !== 0) {
+    auto.push(itensDomesticos[i])
+  }
+}
+
+
+export const resposta06 = auto
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
@@ -264,7 +300,16 @@ na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+const lovesick = []
+
+for (let i = 0; i < itensDomesticos.length; i++) {
+  if (itensDomesticos[i].length > 6) {
+    lovesick.push(itensDomesticos[i])
+  }
+}
+
+
+export const resposta07 = lovesick
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
@@ -273,7 +318,13 @@ o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+const bleak = []
+
+for (let i = itensDomesticos.length - 1; i >= 0; i--) {
+  bleak.push(itensDomesticos[i])
+}
+
+export const resposta08 = bleak
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [
@@ -288,7 +339,13 @@ novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+const pegasus = []
+
+for (let pet of petsExoticos) {
+  pegasus.push(pet.toUpperCase())
+}
+
+export const resposta09 = pegasus
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
@@ -302,7 +359,15 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+const motosserra = []
+
+for (let pet of petsExoticos) {
+  if (pet.includes("r")) {
+    motosserra.push(pet)
+  }
+}
+
+export const resposta10 = motosserra
 
 /* Questão 11
 Continuando com a lista de pets exóticos, use um laço de repetição for...of para
@@ -316,7 +381,15 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 
-export const resposta11 = false
+let devilish = 0
+
+for (let pet of petsExoticos) {
+  if (pet.length > 7) {
+    devilish++
+  }
+}
+
+export const resposta11 = devilish
 
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
@@ -330,4 +403,13 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false
+let encontrado = "não encontrado"
+
+for (let pet of petsExoticos) {
+  if (pet[0] === "s") {
+    encontrado = pet
+    break
+  }
+}
+
+export const resposta12 = encontrado
