@@ -256,11 +256,11 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 const newList = [];
-let indice = nomes.length - 1;
+let indici = nomes.length - 1;
 
-while(indice >= 0){
-    newList.push(nomes[indice]);
-    indice--; 
+while(indici >= 0){
+    newList.push(nomes[indici]);
+    indici--; 
 }
 console.log(newList)
 export const resposta05 = newList;

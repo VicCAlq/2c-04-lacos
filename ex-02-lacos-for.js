@@ -230,15 +230,15 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 (pode ser decimal) na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-let soma = 0;
+let tudo = 0;
 let count = 0;
 let resultado = 0;
 for(let hinataDoBem = 1; hinataDoBem <= 200; hinataDoBem++){
 if(hinataDoBem % 3 === 0){
         count++
-        soma += hinataDoBem;
+        tudo += hinataDoBem;
 }
-resultado = soma/count;
+resultado = tudo/count;
 }
 
 console.log(resultado);
@@ -259,8 +259,15 @@ Armazene o novo array na variável resposta05.
 
 */
 // Escreva o código da solução abaixo:
+let novoArray = [];
+ for(let contador = 0; contador <= itensDomesticos.length - 1; contador++){
+        if(itensDomesticos[contador][0] === "c"){
+               novoArray.push(itensDomesticos[contador]);
+         }
+ }
+ console.log(novoArray);
 
-export const resposta05 = false
+export const resposta05 = novoArray;
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
@@ -269,8 +276,17 @@ estão nos índices ímpares da lista original (índices 1, 3, 5, 7, 9, 11, 13).
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let novissimoArray = [];
 
-export const resposta06 = false
+for(let indoce = 0; indoce <= itensDomesticos.length - 1; indoce++){
+        if(indoce % 2 != 0){
+                novissimoArray.push(itensDomesticos[indoce]);
+        }
+}
+
+console.log(novissimoArray);
+
+export const resposta06 = novissimoArray
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
