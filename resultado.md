@@ -1,9 +1,10 @@
-Data de atualização: Dia 30/03/2026 às 10:33:15
+Data de atualização: Dia 30/03/2026 às 11:32:28
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | i5 is not defined |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Parse failure: `let` cannot be used as an identifier in strict mode
+At file: /ex-01-lacos-while.js:194:0 |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
