@@ -194,7 +194,7 @@ for (let i = 0; i <= 100; i = i + 1) {
   soma += i;
 }
 
-export const resposta01 = false
+export const resposta01 = soma
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
@@ -202,9 +202,9 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 */
 // Escreva o código da solução abaixo:
 let contador = 0
-for (let i2 = 0; i2 <= 50; i2++) {
-  if(i2 % 2 !== 0) {
-    contador += i2;
+for (let i2 = 1; i2 <= 50; i2++) {
+  if (i2 % 2 !== 0) {
+    contador++
   }
 }
 
@@ -235,15 +235,15 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 // Escreva o código da solução abaixo:
 let contador3 = 0
 let soma3 = 0
-for (let i4 = 1; i4 <= 200; i4++){
-  if(i4 % 3 === 0) {
+
+for (let i4 = 1; i4 <= 200; i4++) {
+  if (i4 % 3 === 0) {
+    soma3 += i4
     contador3++
   }
-  soma3 += i4
 }
-const resultado = soma3 / contador3 
 
-
+const resultado = soma3 / contador3
 
 export const resposta04 = resultado
 
@@ -280,8 +280,9 @@ Armazene o novo array na variável resposta06.
 let resuls = []
 
 for (let i = 1; i < itensDomesticos.length; i += 2) {
-  reuls.push(itensDomesticos[i])
+  resuls.push(itensDomesticos[i])
 }
+
 export const resposta06 = resuls
 
 /* Questão 07
@@ -324,8 +325,14 @@ para criar um novo array contendo todos os nomes em letras maiúsculas. Armazene
 novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+let blabla = []
 
-export const resposta09 = false
+for (let pet of petsExoticos) {
+  blabla.push(pet.toUpperCase())
+}
+
+export const resposta09 = blabla
+
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
