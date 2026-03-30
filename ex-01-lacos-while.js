@@ -177,7 +177,7 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 let a1 = 0;
 let soma = 0;
 while(a1 <= 32){
-   soma = soma + a;
+   soma = soma + a1;
    a1++;
    console.log(soma);
 }
