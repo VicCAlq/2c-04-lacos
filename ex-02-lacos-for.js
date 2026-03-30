@@ -227,9 +227,9 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 let media = 0
 let soma = 0
 let quantidade = 0
-for(let i = 1; i <= 200; i++){
-  if(i % 3 === 0){
-    soma += i
+for(let multiplo = 1; multiplo <= 200; multiplo++){
+  if(multiplo % 3 === 0){
+    soma += multiplo
     quantidade ++
   }
 }
