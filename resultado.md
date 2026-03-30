@@ -1,9 +1,9 @@
-Data de atualização: Dia 30/03/2026 às 10:33:40
+Data de atualização: Dia 30/03/2026 às 11:33:20
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | nomes2 is not defined |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | nomeIndice is not defined |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
