@@ -286,7 +286,7 @@ for(let indoce = 0; indoce <= itensDomesticos.length - 1; indoce++){
 
 console.log(novissimoArray);
 
-export const resposta06 = novissimoArray
+export const resposta06 = novissimoArray;
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
@@ -294,8 +294,16 @@ para criar um novo array contendo os itens com mais de 6 letras. Armazene o novo
 na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+let maisUmArray = [];
+for(let maisUmContador = 0; maisUmContador <= itensDomesticos.length - 1; maisUmContador++){
+        if(itensDomesticos[maisUmContador].length > 6) {
+                maisUmArray.push(itensDomesticos[maisUmContador]);
+        }
+}
 
-export const resposta07 = false
+console.log(maisUmArray);
+
+export const resposta07 = maisUmArray;
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
@@ -303,8 +311,14 @@ Finalizando com a lista de itens domésticos abaixo, use um laço de repetição
 o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+let denovoUmArray = [];
+for(let denovoUmContador = 0; denovoUmContador <= itensDomesticos.length - 1; denovoUmContador++){
+        denovoUmArray.push(itensDomesticos.reverse());
+}
+        
+console.log(denovoUmArray);
 
-export const resposta08 = false
+export const resposta08 = denovoUmArray;
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [
@@ -318,8 +332,14 @@ para criar um novo array contendo todos os nomes em letras maiúsculas. Armazene
 novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+let outroooooooooArray = [];
+for(let animal of petsExoticos){
+        outroooooooooArray.push(animal.toUpperCase());
+}
 
-export const resposta09 = false
+console.log(outroooooooooArray);
+
+export const resposta09 = outroooooooooArray;
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
@@ -332,8 +352,17 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
+let meuDeusMaisUmArray = [];
+let letras = "r";
+for(let bicho of petsExoticos){
+        if(bicho.includes(letras)){
+                meuDeusMaisUmArray.push(bicho);
+        }
+}
 
-export const resposta10 = false
+console.log(meuDeusMaisUmArray);
+
+export const resposta10 = meuDeusMaisUmArray;
 
 /* Questão 11
 Continuando com a lista de pets exóticos, use um laço de repetição for...of para
@@ -346,8 +375,16 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
+let quantidadeDeNumeros = 0;
+for(bichinhos of petsExoticos){
+        if(bichinhos.length > 7){
+                quantidadeDeNumeros++;
+        }
+}
 
-export const resposta11 = false
+console.log(quantidadeDeNumeros);
+
+export const resposta11 = 4;
 
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
@@ -360,5 +397,11 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
+for(let monstro of petsExoticos){
+      if(monstro.startsWith('s')) {
+            console.log(monstro);
+            break;
+        } 
+}
 
-export const resposta12 = false
+export const resposta12 = "sagui"
