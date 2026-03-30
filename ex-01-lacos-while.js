@@ -221,7 +221,7 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
-nomes2 = [
+const nomes2 = [
   "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
   "Fábio", "Gabriela", "Hugo", "Isabela", "João"
 ]
