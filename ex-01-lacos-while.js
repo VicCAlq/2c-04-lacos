@@ -175,6 +175,15 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
+var i = 1;
+var num = 0;
+
+
+while (i <= 32) {
+    num = num + i;
+    i++; 
+}
+
 export const resposta01 = false
 
 /* Questão 02
@@ -182,6 +191,15 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
+
+var i = 0;
+var num = 0;
+
+
+while (i <= 50) {
+    num = num + i;
+    i += 2;
+}
 
 export const resposta02 = false
 
@@ -193,13 +211,38 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+let local = 0;
+let contador = 0;
+while (local < numeros.length) {
+    if (numeros[local] < 0) {
+        contador++
+    }
+    local++;
+}
+
+
 export const resposta03 = false
+
+
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+
+
+let num = 0;
+var soma = 0;
+
+while ( num < 100  ) {
+    if (num % 7 === 0) {
+        soma += num
+    }
+    num++
+}
+
 
 export const resposta04 = false
 
