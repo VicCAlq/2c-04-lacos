@@ -252,7 +252,7 @@ Armazene o novo array na variável resposta05.
 // Escreva o código da solução abaixo:
 let itensComC = []
 
-for (let c = 0; c < itensDomesticos.length; c++) {
+for (let c = 0; c <= itensDomesticos.length -1; c++) {
   if (itensDomesticos[c][0] === "c") {
     itensComC.push(itensDomesticos[c])
   }
