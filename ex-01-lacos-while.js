@@ -352,5 +352,16 @@ Se houver empate (mais de um nome com o mesmo comprimento máximo), armazene
 apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável resposta10.
 */
 // Escreva o código da solução abaixo:
+let maiorNome = nomes[0];
+let letruas = 0;
 
-export const resposta10 = false
+while(letruas < nomes.length){
+        if(nomes[letruas].length > maiorNome.length){
+               maiorNome = nomes[letruas];
+        }
+        letruas++;
+}
+
+console.log(maiorNome);
+
+export const resposta10 = Gabriela;
