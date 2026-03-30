@@ -174,11 +174,12 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let c = 0;
-let a = 0;
+let c = 1;
+let a = 1;
 while(c <= 32) {
-  a = a + c
-  c++
+    c++
+    a = a + c
+
 }
 export const resposta01 = a
 
@@ -204,10 +205,14 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 // Escreva o código da solução abaixo:
 let numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 let n = 0;
-while (n < 0){
-  n += 1
+let i = 0
+while (i < numeros.length -1){
+        i++
+    if(numeros[i] < 0){
+      n += 1
+    }
 }
-export const resposta03 = false
+export const resposta03 = n
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
@@ -220,8 +225,9 @@ let am = 0
   if (m % 7 == 0){
     am += m
   }
+      m++
  }
-export const resposta04 = am
+export const resposta04 = m
 
 // Lista para as questões 5 a 10:
 let nomes = [
