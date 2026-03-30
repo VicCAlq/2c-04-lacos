@@ -322,13 +322,14 @@ Finalizando com a lista de itens domésticos abaixo, use um laço de repetição
 o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
-petsExoticos;
 const reverseMountain = [];
-for(let umPedaçoAoContrario = 0; umPedaçoAoContrario < petsExoticos.length - 1; umPedaçoAoContrario --){
-   reverseMountain.push(petsExoticos[umPedaçoAoContrario])
 
+for (let umPedacoAoContrario = itensDomesticos.length - 1; umPedacoAoContrario >= 0; umPedacoAoContrario--) {
+  reverseMountain.push(itensDomesticos[umPedacoAoContrario]);
 }
-export const resposta08 = false
+console.log(reverseMountain)
+
+export const resposta08 = reverseMountain;
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [
