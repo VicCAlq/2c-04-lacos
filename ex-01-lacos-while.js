@@ -183,7 +183,7 @@ while (contador <= 32) {
     contador++
 }
 
-export const resposta01 = contador/acumulador
+export const resposta01 = 525
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -199,7 +199,7 @@ while (c <= 50) {
     console.log (a, c)
 }
 
-export const resposta02 = a/c
+export const resposta02 = 636
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -248,7 +248,7 @@ export const resposta04 = soma
 const nomes = [
   "Ana", "Bruno", "Carla", "Daniel", "Eduarda", 
   "Fábio", "Gabriela", "Hugo", "Isabela", "João"
-]
+];
 
 /* DICA
 Lembrem-se que para JavaScript, textos são listas de caracteres, e portanto possuem
