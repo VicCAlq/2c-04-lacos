@@ -251,7 +251,7 @@ for(let zoom = 1; zoom <= 200; zoom++){
 
 console.log(finalBoss)
 
-export const resposta04 = false
+export const resposta04 = finalBoss
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
@@ -267,8 +267,17 @@ Armazene o novo array na variável resposta05.
 
 */
 // Escreva o código da solução abaixo:
-let contador09 = 
-export const resposta05 = false
+itensDomesticos; 
+const cavalo = [];
+
+for (let ieieie = 0; ieieie < itensDomesticos.length; ieieie += 1) {   
+  if (itensDomesticos[ieieie][0] === "c") {
+    cavalo.push(itensDomesticos[ieieie])
+  }
+}
+console.log(cavalo);
+
+export const resposta05 = cavalo;
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
@@ -277,8 +286,17 @@ estão nos índices ímpares da lista original (índices 1, 3, 5, 7, 9, 11, 13).
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+itensDomesticos;
+let impareStates = [];
+for(let contador010 = 0; contador010 <= itensDomesticos.length - 1; contador010++){
+    if( contador010 % 2 != 0 ){
+        impareStates.push(itensDomesticos[contador010]);
+    }
+}
 
-export const resposta06 = false
+console.log(impareStates);
+
+export const resposta06 = impareStates;
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
@@ -286,8 +304,17 @@ para criar um novo array contendo os itens com mais de 6 letras. Armazene o novo
 na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+itensDomesticos;
 
-export const resposta07 = false
+const rainbowSix = [];
+for (let siege = 0; siege < itensDomesticos.length; siege ++) {   
+  if (itensDomesticos[siege].length > 6) {
+    rainbowSix.push(itensDomesticos[siege])
+  }
+}
+console.log(rainbowSix);
+
+export const resposta07 = rainbowSix;
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
@@ -295,7 +322,12 @@ Finalizando com a lista de itens domésticos abaixo, use um laço de repetição
 o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+petsExoticos;
+const reverseMountain = [];
+for(let umPedaçoAoContrario = 0; umPedaçoAoContrario < petsExoticos.length - 1; umPedaçoAoContrario --){
+   reverseMountain.push(petsExoticos[umPedaçoAoContrario])
 
+}
 export const resposta08 = false
 
 // Lista para as questões 5 a 10:
@@ -310,8 +342,17 @@ para criar um novo array contendo todos os nomes em letras maiúsculas. Armazene
 novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+petsExoticos;
+const grandão = [];
 
-export const resposta09 = false
+const grandão = [];
+for (let xablauuuGiganteee= 0; xablauuuGiganteee < petsExoticos.length; xablauuuGiganteee ++) {   
+    grandão.push(petsExoticos[xablauuuGiganteee].toUpperCase())
+}
+console.log(grandão);
+
+export const resposta09 = grandão
+
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
@@ -324,8 +365,17 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
+petsExoticos;
+const ratatuillio = [];
 
-export const resposta10 = false
+for (let portaDublada = 0; portaDublada < petsExoticos.length; portaDublada += 1) {   
+  if (petsExoticos[portaDublada].includes("r")) {
+    ratatuillio.push(petsExoticos[portaDublada])
+  }
+}
+console.log(ratatuillio);
+
+export const resposta10 = ratatuillio
 
 /* Questão 11
 Continuando com a lista de pets exóticos, use um laço de repetição for...of para
@@ -338,8 +388,17 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
+petsExoticos;
+const sevenNames = [];
 
-export const resposta11 = false
+for (let megaEx = 0; megaEx < petsExoticos.length; megaEx += 1) {   
+  if (petsExoticos[megaEx].length > 7) {
+    sevenNames.push(petsExoticos[megaEx])
+  }
+}
+console.log(sevenNames);
+
+export const resposta11 = sevenNames; 
 
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
@@ -352,5 +411,14 @@ const petsExoticos = [
 ]
 */
 // Escreva o código da solução abaixo:
+petsExoticos; 
+let sName = "";
+for (let ex = 0; ex < petsExoticos.length; ex += 1) {
+  if (sName === "" && petsExoticos[ex][0] === "s") {
+    sName = petsExoticos[ex];
+  }
+}
 
-export const resposta12 = false
+console.log(sName);
+
+export const resposta12 = sName;
