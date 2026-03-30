@@ -188,7 +188,7 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 let impar = 0
-let sla = 1
+let sla = 0
 
 while( sla <= 50){
   if(sla % 2 === 0) {
@@ -258,7 +258,7 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+export const resposta05 = nomes.reverse
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -267,7 +267,17 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+export const resposta06 = (() => {
+  const resposta = []
+  let i = 0
+  while (i < nomes.length) {
+    if (i % 2 === 0) {
+      resposta.push(nomes[i])
+    }
+    i++
+  }
+  return resposta
+})()
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
@@ -275,7 +285,17 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+export const resposta07 = (() => {
+  const resposta = []
+  let i = 0
+  while (i < nomes.length) {
+    if (nomes[i].length <= 5) {
+      resposta.push(nomes[i])
+    }
+    i++
+  }
+  return resposta
+})()
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
