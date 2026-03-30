@@ -250,8 +250,14 @@ Armazene o novo array na variável resposta05.
 
 */
 // Escreva o código da solução abaixo:
+let itensComC = []
 
-export const resposta05 = false
+for (let c = 0; c < itensDomesticos.length; c++) {
+  if (itensDomesticos[c][0] === "c") {
+    itensComC.push(itensDomesticos[c])
+  }
+}
+export const resposta05 = itensComC
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
@@ -260,8 +266,14 @@ estão nos índices ímpares da lista original (índices 1, 3, 5, 7, 9, 11, 13).
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let itensImpares = []
 
-export const resposta06 = false
+for (let imp = 0; imp < itensDomesticos.length; imp++) {
+  if (imp % 2 !== 0) {
+    itensImpares.push(itensDomesticos[imp])
+  }
+}
+export const resposta06 = itensImpares
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
@@ -269,8 +281,14 @@ para criar um novo array contendo os itens com mais de 6 letras. Armazene o novo
 na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+let itensMaioresSeis = []
 
-export const resposta07 = false
+for (let maior = 0; maior < itensDomesticos.length; maior++) {
+  if (itensDomesticos[maior].length > 6) {
+    itensMaioresSeis.push(itensDomesticos[maior])
+  }
+}
+export const resposta07 = itensMaioresSeis
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
@@ -278,8 +296,13 @@ Finalizando com a lista de itens domésticos abaixo, use um laço de repetição
 o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+let itensReversos = []
 
-export const resposta08 = false
+for (let reverso = itensDomesticos.length - 1; reverso >= 0; reverso--) {
+  itensReversos.push(itensDomesticos[reverso])
+}
+
+export const resposta08 = itensReversos
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [
