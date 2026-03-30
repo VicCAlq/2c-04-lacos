@@ -304,8 +304,12 @@ Finalizando com a lista de itens domésticos abaixo, use um laço de repetição
 o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+let reverseList = []
+for(let fim = itensDomesticos.length -1; fim >= 0; fim--){
+  reverseList.push(itensDomesticos[fim])
+}
 
-export const resposta08 = false
+export const resposta08 = reverseList
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [

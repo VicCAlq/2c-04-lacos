@@ -192,7 +192,7 @@ let soma1 = 0
 let repeat1 = 1
 while(repeat1 <= 50){
   soma1 += repeat1
-  repeat += 2
+  repeat1 += 2
 }
 
 export const resposta02 = soma1
