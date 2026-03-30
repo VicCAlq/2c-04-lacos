@@ -305,7 +305,15 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+let respostaArray = []
+let indice8 = 0
+
+while (indice8 < nomes.length) {
+  respostaArray.push(nomes[indice8].toUpperCase())
+  indice8++
+}
+
+export const resposta08 = respostaArray
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
