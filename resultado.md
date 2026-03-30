@@ -1,13 +1,13 @@
-Data de atualização: Dia 30/03/2026 às 10:34:36
+Data de atualização: Dia 30/03/2026 às 11:30:31
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
 |  1 | Ex 01 | ✅ | ❌ | AssertionError: expected 561 to deeply equal 528 |
-|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected +0 to deeply equal 625 |
-|  3 | Ex 01 | ✅ | ❌ | AssertionError: expected +0 to deeply equal 6 |
-|  4 | Ex 01 | ✅ | ❌ | AssertionError: expected +0 to deeply equal 735 |
-|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ❌ | AssertionError: expected 101 to deeply equal 735 |
+|  5 | Ex 01 | ✅ | ❌ | AssertionError: expected [] to deeply equal [ 'João', 'Isabela', 'Hugo', …(7) ] |
 |  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
