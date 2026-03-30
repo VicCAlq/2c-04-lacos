@@ -174,11 +174,11 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let a = 0;
+let a1 = 0;
 let soma = 0;
-while(a <= 32){
+while(a1 <= 32){
    soma = soma + a;
-   a++;
+   a1++;
    console.log(soma);
 }
 export const resposta01 = soma;
@@ -188,15 +188,15 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let a = 0;
+let a2 = 0;
 let c = 1;
 while(c <= 50) {
-    a += c;
+    a2 += c;
     c += 2;
     console.log(a);
 }
 
-export const resposta02 = a;
+export const resposta02 = a2;
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -240,13 +240,14 @@ Dada  lista de nomes acima, utilize um laço de repetição while para criar um
 novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
+
 // Escreva o código da solução abaixo:
 const novaLista = [];
-let indiceTwo = nomes.length - 1;
+let indice2 = nomes.length - 1;
 
-while(indiceTwo >= 0){
-    novaLista.push(nomes[indice]);
-    indiceTwo--; 
+while(indice2 >= 0){
+    novaLista.push(nomes[indice2]);
+    indice2--; 
 } console.log(novaLista)
 export const resposta05 = novaLista
 
@@ -256,14 +257,14 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-let idice = 0;
+let indice3 = 0;
 let e = nomes.length;
 const segundaLista = [];
-while(idice < e){
-    if(idice % 2 === 0){
-        segundaLista.push(idice);
+while(indice3 < e){
+    if(indice3 % 2 === 0){
+        segundaLista.push(indice3);
     }
-    idice++;
+    indice3++;
 } console.log(segundaLista)
 export const resposta06 = segundaLista
 
@@ -292,12 +293,12 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 const quartaLista = [];
-let indi = 0;
+let indice4 = 0;
 let elementos = nomes.length - 1;
 
-while(indi <= elementos){
+while(indice4 <= elementos){
     quartaLista.push(nomes[quartaLista].toUpperCase());
-    indi++;
+    indice4++;
 }
 console.log(quartaLista);
 
