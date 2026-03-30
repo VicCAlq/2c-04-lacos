@@ -1,9 +1,18 @@
-Data de atualização: Dia 30/03/2026 às 10:32:29
+Data de atualização: Dia 30/03/2026 às 11:30:48
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | nomesArray is not defined |
+|  1 | Ex 01 | ✅ | ❌ | AssertionError: expected 0.062381852551984876 to deeply equal 528 |
+|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected 12.254901960784315 to deeply equal 625 |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ❌ | AssertionError: expected [] to deeply equal [ 'João', 'Isabela', 'Hugo', …(7) ] |
+|  6 | Ex 01 | ✅ | ❌ | AssertionError: expected [ 'Ana', 'Carla', 'Eduarda', …(7) ] to deeply equal [ 'Ana', 'Carla', 'Eduarda', …(2) ] |
+|  7 | Ex 01 | ✅ | ❌ | AssertionError: expected [ 'Ana', 'Bruno', 'Carla', …(9) ] to deeply equal [ 'Ana', 'Bruno', 'Carla', …(3) ] |
+|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
