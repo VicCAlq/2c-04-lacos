@@ -1,27 +1,7 @@
-Data de atualização: Dia 30/03/2026 às 10:31:43
+Data de atualização: Dia 30/03/2026 às 11:33:42
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ❌ | AssertionError: expected 561 to deeply equal 528 |
-|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected +0 to deeply equal 625 |
-|  3 | Ex 01 | ✅ | ❌ | AssertionError: expected +0 to deeply equal 6 |
-|  4 | Ex 01 | ✅ | ❌ | AssertionError: expected +0 to deeply equal 735 |
-|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  6 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  7 | Ex 01 | ✅ | ✅ | Nenhum erro |
-|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  1 | Ex 02 | ✅ | ❌ | AssertionError: expected 5051 to deeply equal 5050 |
-|  2 | Ex 02 | ✅ | ❌ | AssertionError: expected 26 to deeply equal 25 |
-|  3 | Ex 02 | ✅ | ❌ | AssertionError: expected -100 to deeply equal -2550 |
-|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  5 | Ex 02 | ✅ | ❌ | AssertionError: expected [] to deeply equal [ 'cadeira', 'cortina', 'copo', …(1) ] |
-|  6 | Ex 02 | ✅ | ❌ | AssertionError: expected [ Array(8) ] to deeply equal [ Array(7) ] |
-|  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-| 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | soma4 is not defined |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | nomeDoItem is not defined |
