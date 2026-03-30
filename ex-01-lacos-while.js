@@ -364,4 +364,4 @@ while(letruas < nomes.length){
 
 console.log(maiorNome);
 
-export const resposta10 = Gabriela;
+export const resposta10 = "Gabriela";
