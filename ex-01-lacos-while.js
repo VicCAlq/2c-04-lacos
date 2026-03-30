@@ -174,16 +174,32 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
+let i = 1;
+let soma = 0;
 
-export const resposta01 = false
+while (i <= 32) {
+  soma += i;
+  i++;
+}
+
+export const resposta01 = soma;
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
+let contador = 1;
+let soma2 = 0;
 
-export const resposta02 = false
+while (contador <= 50) {
+  if (contador % 2 !== 0) {
+    soma2 += contador;
+  }
+  contador++;
+}
+
+export const resposta02 = soma2
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -193,15 +209,45 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+let nega = 0;
+let kaka = 0;
+
+while (kaka < numeros.length) {
+  if (numeros[kaka] < 0) {
+    nega++;
+  }
+  kaka++;
+}
+
+export const resposta03 = nega;
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let impar1 = 0
+let sla2 = 1
 
-export const resposta04 = false
+while( sla2 <= 100){
+  if(sla2 % 7 === 0) {
+     impar1 += sla2;
+     
+
+  }
+   sla2++;
+}
+export const resposta04 = impar1
+
+
+
+
+
+
+
+
+
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -220,25 +266,48 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+let novoArray = [];
+let i4 = nomes.length - 1;
 
-export const resposta05 = false
+while (i4 >= 0) {
+  novoArray.push(nomes[i4]);
+  i4--;
+}
 
+export const resposta05 = novoArray;
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
 apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 4, 6, 8).
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let pares = [];
+let i2 = 0;
 
-export const resposta06 = false
+while (i2 < nomes.length) {
+  if (i2 % 2 === 0) {
+    pares.push(nomes[i2]);
+  }
+  i2++;
+}
+
+export const resposta06 = pares;
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+let cincoOuMenos = [];
+let i3 = 0;
 
-export const resposta07 = false
+while (i3 < nomes.length) {
+  if (nomes[i3].length <= 5) {
+    cincoOuMenos.push(nomes[i3]);
+  }
+  i3++;
+}
+export const resposta07 = cincoOuMenos
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
