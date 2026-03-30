@@ -177,11 +177,12 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 let i = 1;
 let soma = 0;
 
-while (i < 32) {
+while (i <= 32) {
   soma += i;
   i++;
 }
-export const resposta01 = soma
+
+export const resposta01 = soma;
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -192,11 +193,12 @@ let contador = 1;
 let soma2 = 0;
 
 while (contador <= 50) {
-  if (contador % 2 === 0) {
-    soma2 += i;
+  if (contador % 2 !== 0) {
+    soma2 += contador;
   }
-  i++;
+  contador++;
 }
+
 export const resposta02 = soma2
 
 /* Questão 03
@@ -207,18 +209,18 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 
-const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
-let nega = 0
-let kaka = 0
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+let nega = 0;
+let kaka = 0;
 
-while(kaka <= numeros.length) {
+while (kaka < numeros.length) {
   if (numeros[kaka] < 0) {
-    nega++
+    nega++;
   }
-  kaka++
+  kaka++;
 }
 
-export const resposta03 = nega
+export const resposta03 = nega;
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
@@ -264,30 +266,32 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
-let novoArray = []
-while(nomes.length > 0) {
-    novoArray.push(nomes.pop());
+let novoArray = [];
+let i4 = nomes.length - 1;
+
+while (i4 >= 0) {
+  novoArray.push(nomes[i4]);
+  i4--;
 }
-console.log(novoArray)
 
-
-export const resposta05 = novoArray
-
+export const resposta05 = novoArray;
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
 apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 4, 6, 8).
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-let pares = []
-let i2 = 0
-while (i2 <= (nomes.length - 1)) {
-  if(i2 % 2 === 0) {
-    pares.push(nomes[i2])
+let pares = [];
+let i2 = 0;
+
+while (i2 < nomes.length) {
+  if (i2 % 2 === 0) {
+    pares.push(nomes[i2]);
   }
-  i2++
+  i2++;
 }
-export const resposta06 = pares
+
+export const resposta06 = pares;
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
