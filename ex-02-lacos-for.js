@@ -189,7 +189,7 @@ Utilizando um laço de repetição for, calcule a soma de todos os números de 1
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let respostarrw = 1
+let respostarrw = 0
 for(let i = 1; i <= 100; i++) {
   respostarrw += i
 }
@@ -200,7 +200,7 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 1 e 50 (incluindo o 1 e 50). Armazene a quantidade encontrada na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-respostarrw = 1
+respostarrw = 0
 for(let i = 1; i <= 50; i++) {
   if (i % 2 !== 0) {
     respostarrw += 1
@@ -214,9 +214,11 @@ negativos entre -100 e -1 (incluindo o -100). Armazene o resultado na
 variável resposta03.
 */
 // Escreva o código da solução abaixo:
-respostarrw = -100
-for(let i = -100; i >= -1; i++) {
-  respostarrw += i
+respostarrw = 0
+for(let i = -100; i <= -1; i++) {
+  if(i % 2 === 0) {
+    respostarrw += i
+  }
 }
 export const resposta03 = respostarrw
 
@@ -226,7 +228,7 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 (pode ser decimal) na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-respostarrw = 1
+respostarrw = 0
 let soma = 0
 let qtd = 0
 for (let i = 1; i <= 200; i++) {
@@ -253,8 +255,9 @@ Armazene o novo array na variável resposta05.
 // Escreva o código da solução abaixo:
 respostarrw = []
 for(let item in itensDomesticos) {
-  if(item[0] === "c") {
-    respostarrw.push(item)
+    nomeDoItem = itensDomesticos[item]
+  if(nomeDoItem[0] === "c") {
+    respostarrw.push(nomeDoItem)
   }
 }
 export const resposta05 = respostarrw
@@ -267,7 +270,7 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 respostarrw = []
-for(let i = 0; i <= itensDomesticos.length; i++) {
+for(let i = 0; i <= itensDomesticos.length - 1; i++) {
   if(i % 2 !== 0) {
     respostarrw.push(itensDomesticos[i])
   }
@@ -281,7 +284,13 @@ na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 respostarrw = []
-export const resposta07 = false
+for(let item in itensDomesticos) {
+  nomeDoItem = itensDomesticos[item]
+  if(nomeDoItem.length - 1 === 6) {
+    respostarrw.push(nomeDoItem)
+  }
+}
+export const resposta07 = respostarrw
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
@@ -289,8 +298,12 @@ Finalizando com a lista de itens domésticos abaixo, use um laço de repetição
 o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+respostarrw = []
+for(i = itensDomesticos.length - 1; i >= 0; i--) {
+  respostarrw.push(itensDomesticos[i])
+}
 
-export const resposta08 = false
+export const resposta08 = respostarrw
 
 // Lista para as questões 5 a 10:
 const petsExoticos = [
