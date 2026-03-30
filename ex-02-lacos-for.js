@@ -258,8 +258,14 @@ Armazene o novo array na variável resposta05.
 
 */
 // Escreva o código da solução abaixo:
+let itensC = [];
+for(let fim = 0; fim <= itensDomesticos.length - 1; fim++){
+  if(itensDomesticos[fim][0] === "c"){
+    itensC.push(itensDomesticos[fim]);
+  }
+}
 
-export const resposta05 = false
+export const resposta05 = itensC
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
