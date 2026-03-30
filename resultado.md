@@ -1,7 +1,7 @@
-Data de atualização: Dia 29/03/2026 às 20:25:26
+Data de atualização: Dia 30/03/2026 às 10:33:21
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'indice' has already been declared |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'soma' has already been declared |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Gabriela is not defined |
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | Identifier 'quantidadeDeNumeros' has already been declared |
