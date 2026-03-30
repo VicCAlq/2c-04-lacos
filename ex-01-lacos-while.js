@@ -266,7 +266,7 @@ let nomess = []
 let indiceee = nomes.length - 1
 
 while (indiceee >= 0) {
-  nomesArray.push(nomes[indiceee])
+  nomes.push(nomes[indiceee])
   indiceee--
 }
 
