@@ -234,15 +234,17 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 */
 // Escreva o código da solução abaixo:
 let media = 0;
-let multi = [];
+let multi = 0;
+let contagem = 0; 
 for(let fim = 0; fim <= 200; fim++){
   if(fim % 3 == 0){
-    multi.push(fim)
+    multi += fim
+    contagem ++
   }
-  media = multi / multi.length
+  media = multi / contagem
 }
 
-export const resposta04 = false
+export const resposta04 = media
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
@@ -274,8 +276,12 @@ estão nos índices ímpares da lista original (índices 1, 3, 5, 7, 9, 11, 13).
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let newLista = [];
+for(let fim = 1; fim <= 13; fim += 2){
+  newLista.push(itensDomesticos[fim])
+}
 
-export const resposta06 = false
+export const resposta06 = newLista
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
@@ -283,8 +289,14 @@ para criar um novo array contendo os itens com mais de 6 letras. Armazene o novo
 na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+let listaSix = [];
+for(let fim = 0; fim <= itensDomesticos.length - 1; fim++){
+  if(itensDomesticos[fim].length >= 6){
+    listaSix.push(itensDomesticos[fim])
+  }
+}
 
-export const resposta07 = false
+export const resposta07 = listaSix
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
