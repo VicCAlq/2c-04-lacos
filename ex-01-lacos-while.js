@@ -274,13 +274,14 @@ Armazene o novo array na variável resposta06.
 let indiceOne = 0;
 let elemientos = nomes.length;
 const novoArray = [];
-while(indiceOne < elemientos){
+
+while(indiceOne <= elemientos - 1){
     if(indiceOne % 2 === 0){
-        novoArray.push(indiceOne);
+        novoArray.push(nomes[indiceOne]);
     }
     indiceOne++;
 }
-console.log(novoArray)
+console.log(novoArray);
 
 export const resposta06 = novoArray;
 
