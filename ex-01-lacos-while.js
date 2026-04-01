@@ -193,7 +193,7 @@ let c = 1;
 while(c <= 50) {
     a2 += c;
     c += 2;
-    console.log(a);
+    console.log(a2);
 }
 
 export const resposta02 = a2;
@@ -262,7 +262,7 @@ let e = nomes.length;
 const segundaLista = [];
 while(indice3 < e){
     if(indice3 % 2 === 0){
-        segundaLista.push(indice3);
+        segundaLista.push(nomes[indice3]);
     }
     indice3++;
 } console.log(segundaLista)
@@ -275,7 +275,7 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 // Escreva o código da solução abaixo:
 let ind = 0;
 const terceiraLista = [];
-let elemeto = nomes.length - 1;
+let elemento = nomes.length - 1;
 
 while(ind <= elemento){
     if(nomes[ind].length <= 5){
@@ -297,7 +297,7 @@ let indice4 = 0;
 let elementos = nomes.length - 1;
 
 while(indice4 <= elementos){
-    quartaLista.push(nomes[quartaLista].toUpperCase());
+    quartaLista.push(nomes[indice4].toUpperCase());;
     indice4++;
 }
 console.log(quartaLista);
