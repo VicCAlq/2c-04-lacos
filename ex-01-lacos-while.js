@@ -234,7 +234,7 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
-nomeIndice = ["Ana", "Carla", "Eduarda", "Gabriela", "Isabela"]
+const nomeIndice = ["Ana", "Carla", "Eduarda", "Gabriela", "Isabela"]
 export const resposta06 = nomeIndice
 
 /* Questão 07
@@ -242,7 +242,7 @@ Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
-nomesCinco = ["Ana", "Bruno", "Carla", "Fábio", "Hugo", "João"]
+const nomesCinco = ["Ana", "Bruno", "Carla", "Fábio", "Hugo", "João"]
 
 export const resposta07 = nomesCinco
 
@@ -251,7 +251,7 @@ Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
 escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
-nomes3 = [
+const nomes3 = [
   "ana", "bruno", "carla", "daniel", "eduarda", 
   "fábio", "gabriela", "hugo", "isabela", "joão"
 ]
@@ -264,7 +264,7 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-nomes4 = [
+const nomes4 = [
   "Ana", "Eduarda", "Isabela",
 ]
 export const resposta09 = nomes4
