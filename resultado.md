@@ -1,4 +1,4 @@
-Data de atualização: Dia 30/03/2026 às 11:32:28
+Data de atualização: Dia 01/04/2026 às 18:02:36
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -8,7 +8,7 @@ At file: /ex-01-lacos-while.js:194:0 |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 100.5 |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 99 |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
