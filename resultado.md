@@ -1,4 +1,4 @@
-Data de atualização: Dia 30/03/2026 às 11:33:48
+Data de atualização: Dia 01/04/2026 às 18:01:29
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -16,7 +16,7 @@ Data de atualização: Dia 30/03/2026 às 11:33:48
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected 100.5 to deeply equal 99 |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
