@@ -202,7 +202,6 @@ Utilizando um laço de repetição for, calcule quantos números ímpares existe
 */
 // Escreva o código da solução abaixo:
 let contador = 0;
-let quantidadeDeNumeros = 0;
 for(let numeros = 1; numeros <= 50; numeros += 2){
     contador++;
 }
@@ -376,7 +375,7 @@ const petsExoticos = [
 */
 // Escreva o código da solução abaixo:
 let quantidadeDeNumer = 0;
-for(bichinhos of petsExoticos){
+for(let bichinhos of petsExoticos){
         if(bichinhos.length > 7){
                 quantidadeDeNumer++;
         }
