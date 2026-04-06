@@ -174,6 +174,7 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
+
 let contador0 = 0
 let acumulador0 = 0
 while (contador0 <= 32){
@@ -187,6 +188,7 @@ Utilizando um laço de repetição while, calcule a soma de todos os números í
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
+
 let acumulador1 = 0
 let contador1 = 0
 while (contador1 <= 50) {
@@ -195,7 +197,7 @@ while (contador1 <= 50) {
   }
   contador1++
 }
-export const resposta02 = contador1
+export const resposta02 = acumulador1
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -204,6 +206,7 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 let indice0 = 0
 let contador2 = 0
@@ -220,13 +223,15 @@ Utilizando um laço de repetição while, faça a soma de todos os múltiplos de
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+
 let contador3 = 0
 let acumulador3 = 0
-while (contador3 <= 100) 
+while (contador3 <= 100) {
   if (contador3 % 7 === 0) {
     acumulador3 += contador3
   }
   contador3++
+}
 export const resposta04 = acumulador3
 
 // Lista para as questões 5 a 10:
@@ -246,6 +251,7 @@ novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+
 let indice1 = nomes.length - 1
 const alunos0 = []
 while (indice1 >= 0) {
@@ -260,6 +266,7 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+
 let indice2= 0
 const alunos1 = []
 while (indice2 < nomes.length) {
@@ -275,6 +282,7 @@ Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+
 let indice3 = 0
 const alunos2 = []
 while (indice3 < nomes.length) {
@@ -290,6 +298,7 @@ Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
 escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
+
 let indice4 = 0
 const alunos3 = []
 while (indice4 < nomes.length) {
@@ -305,7 +314,18 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+let indice5 = 0
+const alunos4 = []
+while (indice5 < nomes.length) {
+  const primeiraLetra = nomes[indice5][0].toUpperCase()
+  if (primeiraLetra === 'A' || primeiraLetra === 'E' || primeiraLetra === 'I' || primeiraLetra === 'O' || primeiraLetra === 'U') {
+    alunos4.push(nomes[indice5])
+  }
+  indice5++
+}
+
+
+export const resposta09 = alunos4
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
@@ -314,4 +334,13 @@ apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável 
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+let indice6 = 0
+let nomeLongo = ""
+while (indice6 < nomes.length) {
+  if (nomes[indice6].length > nomeLongo.length){
+    nomeLongo = nomes[indice6]
+  }
+  indice6++
+}
+
+export const resposta10 = nomeLongo
