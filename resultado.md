@@ -1,7 +1,18 @@
-Data de atualização: Dia 05/04/2026 às 21:34:51
+Data de atualização: Dia 06/04/2026 às 11:06:28
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Identifier 'i' has already been declared |
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | seuamigo is not defined |
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Cannot access 'i' before initialization |
+|  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected 6633 to deeply equal 100.5 |
+|  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 11 | Ex 02 | ✅ | ✅ | Nenhum erro |
+| 12 | Ex 02 | ✅ | ✅ | Nenhum erro |
