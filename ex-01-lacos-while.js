@@ -278,7 +278,7 @@ Armazene o novo array na variável resposta06.
 let nomes2 = []
 let fim1 = 0
 while(fim1 <= 8){
-  nomes2 += nomes[fim1]
+  nomes2.push(nomes[fim1])
   fim1 += 2
 }
 
@@ -293,7 +293,7 @@ let nomes3 = []
 let fim2 = 0
 while(fim2 <= 9){
   if(nomes[fim2].length <= 5){
-    nomes3 += nomes[fim2] 
+    nomes3.push(nomes[fim2])
   }
   fim2++
 }

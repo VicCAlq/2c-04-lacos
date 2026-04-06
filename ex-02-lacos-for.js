@@ -291,7 +291,7 @@ na variável resposta07.
 // Escreva o código da solução abaixo:
 let listaSix = [];
 for(let fim = 0; fim <= itensDomesticos.length - 1; fim++){
-  if(itensDomesticos[fim].length >= 6){
+  if(itensDomesticos[fim].length > 6){
     listaSix.push(itensDomesticos[fim])
   }
 }
