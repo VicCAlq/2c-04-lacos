@@ -227,7 +227,7 @@ for (let i = -100; i <= -1; i++) {
   }
 }
 
-export const resposta03 = seuamigo
+export const resposta03 = soma03
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
