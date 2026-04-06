@@ -241,13 +241,13 @@ const itensDomesticos = [
 Dada a lista de itens domésticos acima, utilize um laço de repetição for (com contador)
 para criar um novo array contendo todos os itens que começam com a letra "c".
 */
-let resposta05 = [];
+let resposta = [];
 for (let i = 0; i < itensDomesticos.length; i++) {
     if (itensDomesticos[i][0] === "c") {
         resposta05.push(itensDomesticos[i]);
     }
 }
-export const resposta05 = resposta05;
+export const resposta05 = resposta;
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
