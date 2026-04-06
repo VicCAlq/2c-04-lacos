@@ -244,7 +244,7 @@ para criar um novo array contendo todos os itens que começam com a letra "c".
 let resposta = [];
 for (let i = 0; i < itensDomesticos.length; i++) {
     if (itensDomesticos[i][0] === "c") {
-        resposta05.push(itensDomesticos[i]);
+        resposta.push(itensDomesticos[i]);
     }
 }
 export const resposta05 = resposta;
