@@ -1,4 +1,4 @@
-Data de atualização: Dia 05/04/2026 às 21:35:21
+Data de atualização: Dia 06/04/2026 às 11:07:41
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -23,5 +23,5 @@ Data de atualização: Dia 05/04/2026 às 21:35:21
 |  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 02 | ✅ | ✅ | Nenhum erro |
-| 11 | Ex 02 | ✅ | ❌ | AssertionError: expected 4 to deeply equal [ 'tarântula', 'escorpião', …(2) ] |
+| 11 | Ex 02 | ✅ | ✅ | Nenhum erro |
 | 12 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
