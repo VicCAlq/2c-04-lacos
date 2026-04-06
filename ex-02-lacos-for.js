@@ -311,10 +311,10 @@ o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 let denovoUmArray = [];
-for(let denovoUmContador = 0; denovoUmContador <= itensDomesticos.length - 1; denovoUmContador++){
-        denovoUmArray.push(itensDomesticos.reverse());
+let tamanhoLista = itensDomesticos.length;
+for(let denovoUmContador = 0; denovoUmContador <= tamanhoLista - 1; denovoUmContador++){
+        denovoUmArray.push(itensDomesticos.pop());
 }
-        
 console.log(denovoUmArray);
 
 export const resposta08 = denovoUmArray;
