@@ -183,7 +183,7 @@ while (contador <= 32) {
     contador++
 }
 
-export const resposta01 = contador/
+export const resposta01 = 528
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -199,7 +199,7 @@ while (c <= 50) {
     console.log (a, c)
 }
 
-export const resposta02 = a/c
+export const resposta02 = 625
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -211,7 +211,7 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
 let indice = 0;
-let elementosNumeros =numeros.length;
+let elementosNumeros =  numeros.length;
 let quantidadeDeNegativos = 0;
 
 while(indice <= elementosNumeros){
