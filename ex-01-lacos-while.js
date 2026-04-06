@@ -227,7 +227,7 @@ while(i <= 100){
     }
     i++
 }
-export const resposta04 = soma4
+export const resposta04 = respostarrw
 
 // Lista para as questões 5 a 10:
 const nomes = [
