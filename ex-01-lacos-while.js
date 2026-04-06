@@ -175,7 +175,15 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+let contador = 1
+let acumulador = 1 
+while (contador <= 32) {
+    acumulador = acumulador + contador
+    console.log(contador, acumulador)
+    contador++
+}
+
+export const resposta01 = 528
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -183,7 +191,15 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+let a = 0 
+let c = 1 
+while (c <= 50) {
+    if (c % 2 !== 0) {a += c} 
+    c += 1
+    console.log (a, c)
+}
+
+export const resposta02 = 625
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -192,8 +208,21 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
-export const resposta03 = false
+let indice = 0;
+let elementosNumeros =  numeros.length;
+let quantidadeDeNegativos = 0;
+
+while(indice <= elementosNumeros){
+    if(numeros[indice] < 0){
+        quantidadeDeNegativos++;
+    }
+    indice++;
+}
+console.log(quantidadeDeNegativos)
+
+export const resposta03 = quantidadeDeNegativos
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
@@ -201,7 +230,19 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta04 = false
+let soma = 0
+let indicee = 1
+
+while (indicee <= 100) {
+  if (indicee % 7 === 0) {
+    soma += indicee
+  }
+  indicee++
+}
+
+console.log(indicee, soma)
+
+export const resposta04 = soma
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -221,7 +262,17 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+let nomess = []
+let indiceee = nomes.length - 1
+
+while (indiceee >= 0) {
+  nomes.push(nomes[indiceee])
+  indiceee--
+}
+
+console.log(nomess,nomes)
+
+export const resposta05 = nomess
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -230,7 +281,18 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+let resposta = []
+let indiceeee = 0
+
+while (indiceeee < nomes.length) {
+  if (indiceeee % 2 === 0) {
+    resposta.push(nomes[indiceeee])
+  }
+  indiceeee++
+}
+console.log(nomes)
+
+export const resposta06 = resposta
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
@@ -238,7 +300,18 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 
-export const resposta07 = false
+let z = []
+let indiceeeee = 0
+
+while (indiceeeee < nomes.length) {
+  if (nomes[indiceeeee].length <= 5) {
+    z.push(nomes[indiceeeee])
+  }
+  indiceeeee++
+}
+console.log(z)
+
+export const resposta07 = z
 
 /* Questão 08
 Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
