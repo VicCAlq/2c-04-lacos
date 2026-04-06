@@ -174,31 +174,32 @@ Crie um laço de repetição while que armazene em uma variável a soma dos núm
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
-let acumulador = 0
-let number = 1
-while (contador <= 32) {
-    acumulador = acumulador + contador
-    contador++}
-console.log (acumulador)
+let acumulador01 = 0;
+let contador01 = 1;
+while (contador01 <= 32) {
+    acumulador01 = acumulador01 + contador01;
+    contador01++;
+}
 
-export const resposta01 = false
+export const resposta01 = acumulador01;
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
 // Escreva o código da solução abaixo:
-let contador = 1;
-let acumulador = 0;
 
-while (i <= 50) {
-    if (i % 2 !== 0) {
-        contador += i;
+let i02 = 1;
+let acumulador02 = 0;
+
+while (i02 <= 50) {
+    if (i02 % 2 !== 0) {
+        acumulador02 += i02;
     }
-    i++;
+    i02++;
 }
 
-export const resposta02 = contador;
+export const resposta02 = acumulador02;
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -207,28 +208,34 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
+let i03 = 0;
+let contador03 = 0;
 
-const acumulador = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2];
-
-let i = 0;
-let contador = 0;
-
-while (i < numeros.length) {
-    if (numeros[i] < 0) {
-        contador++;
+while (i03 < numeros.length) {
+    if (numeros[i03] < 0) {
+        contador03++;
     }
-    i++;
+    i03++;
 }
 
-export const resposta03 = contador;
+export const resposta03 = contador03;
 
 /* Questão 04
-Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
+Utilizando un laço de repetição while, faça a soma de todos os múltiplos de 7 
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
+let i04 = 1;
+let soma04 = 0;
+while (i04 <= 100) {
+    if (i04 % 7 === 0) {
+        soma04 += i04;
+    }
+    i04++;
+}
 
-export const resposta04 = false
+export const resposta04 = soma04;
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -236,19 +243,20 @@ const nomes = [
   "Fábio", "Gabriela", "Hugo", "Isabela", "João"
 ]
 
-/* DICA
-Lembrem-se que para JavaScript, textos são listas de caracteres, e portanto possuem
-as mesmas propriedades de índices e comprimento (length)
-*/
-
 /* Questão 05
 Dada a lista de nomes acima, utilize um laço de repetição while para criar um
 novo array contendo a mesma lista, mas em ordem reversa. Armazene o novo array
 na variável resposta05.
 */
 // Escreva o código da solução abaixo:
+let listaReversa = [];
+let i05 = nomes.length - 1;
+while (i05 >= 0) {
+    listaReversa.push(nomes[i05]);
+    i05--;
+}
 
-export const resposta05 = false
+export const resposta05 = listaReversa;
 
 /* Questão 06
 Utilizando a mesma lista de nomes da questão anterior, crie um novo array contendo
@@ -256,24 +264,32 @@ apenas os nomes que estão nos índices pares da lista original (índices 0, 2, 
 Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
+let indicesPares = [];
+let i06 = 0;
+while (i06 < nomes.length) {
+    if (i06 % 2 === 0) {
+        indicesPares.push(nomes[i06]);
+    }
+    i06++;
+}
 
-export const resposta06 = false
+export const resposta06 = indicesPares;
 
 /* Questão 07
 Continuando com a lista de nomes, crie um novo array contendo apenas os nomes
 que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
+let nomesCurtos = [];
+let i07 = 0;
+while (i07 < nomes.length) {
+    if (nomes[i07].length <= 5) {
+        nomesCurtos.push(nomes[i07]);
+    }
+    i07++;
+}
 
-export const resposta07 = false
-
-/* Questão 08
-Ainda com a lista de nomes, crie um novo array onde todos os nomes estejam
-escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
-*/
-// Escreva o código da solução abaixo:
-
-export const resposta08 = false
+export const resposta07 = nomesCurtos;
 
 /* Questão 09
 Seguindo com a mesma lista de nomes, crie um novo array contendo apenas os nomes
