@@ -250,21 +250,11 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 let nomes1 = []
+let nomesCopia = nomes
 let order = 0;
 
 while(order <= nomes.length - 1){
-  order++;
-  let nome1 = nomes.pop()
-  let nome2 = nomes.pop()
-  let nome3 = nomes.pop()
-  let nome4 = nomes.pop()
-  let nome5 = nomes.pop()
-  let nome6 = nomes.pop()
-  let nome7 = nomes.pop()
-  let nome8 = nomes.pop()
-  let nome9 = nomes.pop()
-  let nome10 = nomes.pop()
-  nomes1.push(nome1,nome2 ,nome3,nome4,nome5,nome6,nome7,nome8,nome9,nome10);
+  nomes1.push(nomesCopia.pop())
 }
 
 export const resposta05 = nomes1
@@ -292,7 +282,7 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 let nomes3 = []
 let fim2 = 0
 while(fim2 <= 9){
-  if(nomes[fim2].length <= 5){
+  if(fim2 <= 5){
     nomes3.push(nomes[fim2])
   }
   fim2++
