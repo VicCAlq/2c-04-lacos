@@ -197,7 +197,7 @@ while (numero <= 50){
     numero += 2
     }
 
-export const resposta02 = carlos
+export const resposta02 = carlosArredondado
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
@@ -208,16 +208,16 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 // Escreva o código da solução abaixo:
 
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
-let contador = 0
+let nuossa = 0
 
 while (i < numeros.length) {
   if (numeros[i] < 0) {
-    contador++
+    nuossa++
   }
   i++
 }
 
-export const resposta03 = contador
+export const resposta03 = nuossa
 
 /* Questão 04
 Utilizando um laço de repetição while, faça a soma de todos os múltiplos de 7 
@@ -225,16 +225,16 @@ entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
 let soma = 0
-let i = 1
+let a = 1
 
-while (i <= 100) {
-  if (i % 7 === 0) {
-    soma += i
+while (a <= 100) {
+  if (a % 7 === 0) {
+    soma += a
   }
-  i++
+  a++
 }
 
-export const resposta04 = false
+export const resposta04 = soma
 
 // Lista para as questões 5 a 10:
 const nomes = [
@@ -269,13 +269,13 @@ Armazene o novo array na variável resposta06.
 */
 // Escreva o código da solução abaixo:
 const bruh = []
-let i = 0
+let e = 0
 
-while (i < nomes.length) {
-  if (i % 2 === 0) {
-    resposta06.push(nomes[i])
+while (e < nomes.length) {
+  if (e % 2 === 0) {
+    resposta06.push(nomes[e])
   }
-  i++
+  e++
 }
 export const resposta06 = bruh
 
@@ -285,13 +285,13 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 */
 // Escreva o código da solução abaixo:
 const megaknight = []
-let i = 0
+let o = 0
 
-while (i < nomes.length) {
-  if (nomes[i].length <= 5) {
-    resposta07.push(nomes[i])
+while (o < nomes.length) {
+  if (nomes[o].length <= 5) {
+    resposta07.push(nomes[o])
   }
-  i++
+  o++
 }
 
 export const resposta07 = megaknight
@@ -302,11 +302,11 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 */
 // Escreva o código da solução abaixo:
 const slice = []
-let i = 0
+let u = 0
 
-while (i < nomes.length) {
-  resposta08.push(nomes[i].toUpperCase())
-  i++
+while (u < nomes.length) {
+  resposta08.push(nomes[u].toUpperCase())
+  u++
 }
 export const resposta08 = slice
 
@@ -317,10 +317,10 @@ Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
 const gothic = []
-let i = 0
+let p = 0
 
-while (i < nomes.length) {
-  let primeiraLetra = nomes[i][0].toLowerCase()
+while (p < nomes.length) {
+  let primeiraLetra = nomes[p][0].toLowerCase()
 
   if (
     primeiraLetra === "a" ||
@@ -329,10 +329,10 @@ while (i < nomes.length) {
     primeiraLetra === "o" ||
     primeiraLetra === "u"
   ) {
-    gothic.push(nomes[i])
+    gothic.push(nomes[p])
   }
 
-  i++
+  p++
 }
 export const resposta09 = gothic
 
@@ -343,13 +343,13 @@ apenas o primeiro que aparecer na lista. Coloque o nome encontrado na variável 
 */
 // Escreva o código da solução abaixo:
 let hihihihá = ""
-let i = 0
+let rei = 0
 
-while (i < nomes.length) {
-  if (nomes[i].length > hihihihá.length) {
-    hihihihá = nomes[i]
+while (rei < nomes.length) {
+  if (nomes[rei].length > hihihihá.length) {
+    hihihihá = nomes[rei]
   }
-  i++
+  rei++
 }
 
 export const resposta10 = hihihihá

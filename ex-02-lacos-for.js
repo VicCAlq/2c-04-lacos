@@ -219,6 +219,7 @@ variável resposta03.
 */
 // Escreva o código da solução abaixo:
 
+
 let soma03 = 0
 
 for (let i = -100; i <= -1; i++) {
@@ -239,9 +240,9 @@ múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado
 let balloons = 0
 let contador04 = 0
 
-for (let i = 1; i <= 200; i++) {
-  if (i % 3 === 0) {
-    balloons += i
+for (let pi = 1; pi <= 200; pi++) {
+  if (pi % 3 === 0) {
+    balloons += pi
     contador04++
   }
 }
@@ -265,9 +266,9 @@ Armazene o novo array na variável resposta05.
 
 const vitu = []
 
-for (let i = 0; i < itensDomesticos.length; i++) {
-  if (itensDomesticos[i][0] === "c") {
-    vitu.push(itensDomesticos[i])
+for (let sli = 0; sli < itensDomesticos.length; sli++) {
+  if (itensDomesticos[sli][0] === "c") {
+    vitu.push(itensDomesticos[sli])
   }
 }
 
@@ -284,9 +285,9 @@ Armazene o novo array na variável resposta06.
 
 const auto = []
 
-for (let i = 0; i < itensDomesticos.length; i++) {
-  if (i % 2 !== 0) {
-    auto.push(itensDomesticos[i])
+for (let ce = 0; ce < itensDomesticos.length; ce++) {
+  if (ce % 2 !== 0) {
+    auto.push(itensDomesticos[ce])
   }
 }
 
@@ -302,9 +303,9 @@ na variável resposta07.
 
 const lovesick = []
 
-for (let i = 0; i < itensDomesticos.length; i++) {
-  if (itensDomesticos[i].length > 6) {
-    lovesick.push(itensDomesticos[i])
+for (let todo = 0; todo < itensDomesticos.length; todo++) {
+  if (itensDomesticos[todo].length > 6) {
+    lovesick.push(itensDomesticos[todo])
   }
 }
 
@@ -320,8 +321,8 @@ o novo array na variável resposta08.
 
 const bleak = []
 
-for (let i = itensDomesticos.length - 1; i >= 0; i--) {
-  bleak.push(itensDomesticos[i])
+for (let ink = itensDomesticos.length - 1; ink >= 0; ink--) {
+  bleak.push(itensDomesticos[ink])
 }
 
 export const resposta08 = bleak
