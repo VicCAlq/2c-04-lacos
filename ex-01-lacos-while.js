@@ -173,11 +173,11 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 7 questões
 Crie um laço de repetição while que armazene em uma variável a soma dos números
 de 1 a 32. Envie o valor resultante na variável resposta01.
 */
-var i = 1;
+var a = 1;
 var num = 0;
 
-while (i <= 32) {
-    num = num + i;
+while (a <= 32) {
+    num = num + a;
     i++; 
 }
 
@@ -187,12 +187,12 @@ export const resposta01 = num
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
 de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta02.
 */
-var i = 1;
+var b = 1;
 var num = 0;
 
-while (i <= 50) {
-    num = num + i;
-    i += 2;
+while (b <= 50) {
+    num = num + b;
+    b += 2;
 }
 
 export const resposta02 = num
