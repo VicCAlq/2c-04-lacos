@@ -183,7 +183,7 @@ while (contador <= 32) {
     contador++
 }
 
-export const resposta01 = 529
+export const resposta01 = 528
 
 /* Questão 02
 Utilizando um laço de repetição while, calcule a soma de todos os números ímpares
@@ -208,9 +208,10 @@ array abaixo. Armazene a quantidade encontrada na variável resposta03.
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
+const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 
 let indice = 0;
-let elementosNumeros =numeros.length;
+let elementosNumeros =  numeros.length;
 let quantidadeDeNegativos = 0;
 
 while(indice <= elementosNumeros){
@@ -264,8 +265,8 @@ na variável resposta05.
 let nomess = []
 let indiceee = nomes.length - 1
 
-while (i5 >= 0) {
-  nomesArray.push(nomes[i5])
+while (indiceee >= 0) {
+  nomes.push(nomes[indiceee])
   indiceee--
 }
 
