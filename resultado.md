@@ -1,10 +1,10 @@
-Data de atualização: Dia 05/04/2026 às 21:31:59
+Data de atualização: Dia 06/04/2026 às 11:08:15
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ❌ | AssertionError: expected 525 to deeply equal 528 |
-|  2 | Ex 01 | ✅ | ❌ | AssertionError: expected 636 to deeply equal 625 |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  5 | Ex 01 | ✅ | ❌ | AssertionError: expected [] to deeply equal [ 'João', 'Isabela', 'Hugo', …(7) ] |
@@ -16,7 +16,7 @@ Data de atualização: Dia 05/04/2026 às 21:31:59
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
-|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 99 |
+|  4 | Ex 02 | ✅ | ❌ | AssertionError: expected Infinity to deeply equal 100.5 |
 |  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
