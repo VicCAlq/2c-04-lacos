@@ -1,9 +1,18 @@
-Data de atualização: Dia 06/04/2026 às 11:08:10
+Data de atualização: Dia 07/04/2026 às 15:16:52
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | Cannot read properties of undefined (reading 'length') |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 01 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 01 | ✅ | ❌ | AssertionError: expected [ undefined, undefined, …(3) ] to deeply equal [ 'Ana', 'Carla', 'Eduarda', …(2) ] |
+|  7 | Ex 01 | ✅ | ❌ | AssertionError: expected [ undefined, undefined, …(4) ] to deeply equal [ 'Ana', 'Bruno', 'Carla', …(3) ] |
+|  8 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+| 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 |  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
