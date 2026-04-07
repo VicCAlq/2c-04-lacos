@@ -1,4 +1,4 @@
-Data de atualização: Dia 06/04/2026 às 11:05:59
+Data de atualização: Dia 07/04/2026 às 15:12:40
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
@@ -13,14 +13,14 @@ Data de atualização: Dia 06/04/2026 às 11:05:59
 |  8 | Ex 01 | ✅ | ❌ | AssertionError: expected undefined to deeply equal [ 'ANA', 'BRUNO', 'CARLA', …(7) ] |
 |  9 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 10 | Ex 01 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  1 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  2 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  3 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  4 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  5 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  6 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  7 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
-|  8 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
+|  1 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  2 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  3 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  4 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  5 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  6 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  7 | Ex 02 | ✅ | ✅ | Nenhum erro |
+|  8 | Ex 02 | ✅ | ✅ | Nenhum erro |
 |  9 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 10 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
 | 11 | Ex 02 | ❌ | ❌ | AssertionError: expected false not to be type of 'boolean' |
