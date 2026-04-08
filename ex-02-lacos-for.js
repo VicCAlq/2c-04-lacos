@@ -194,6 +194,7 @@ for (let i = 1; i <= 100; i++) {
 }
 export const resposta01 = soma01;
 
+
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
 1 e 50 (incluindo o 1 e 50). Armazene a quantidade encontrada na variável resposta02.
@@ -203,6 +204,7 @@ for (let i = 1; i <= 50; i += 2) {
     impares++;
 }
 export const resposta02 = impares;
+
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
@@ -214,6 +216,7 @@ for (let i = -100; i <= -2; i += 2) {
     soma03 += i;
 }
 export const resposta03 = soma03;
+
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
@@ -230,6 +233,7 @@ for (let i = 1; i <= 200; i++) {
 }
 export const resposta04 = soma04 / contador04;
 
+
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
   "mesa", "cadeira", "sofá", "cortina", "tapete", 
@@ -237,17 +241,19 @@ const itensDomesticos = [
   "espelho", "quadro", "vaso", "relógio", "almofada"
 ]
 
+
 /* Questão 05
 Dada a lista de itens domésticos acima, utilize um laço de repetição for (com contador)
 para criar um novo array contendo todos os itens que começam com a letra "c".
 */
-let resposta = [];
+let resposta05 = [];
 for (let i = 0; i < itensDomesticos.length; i++) {
     if (itensDomesticos[i][0] === "c") {
-        resposta.push(itensDomesticos[i]);
+        resposta05.push(itensDomesticos[i]);
     }
 }
-export const resposta05 = resposta;
+export const resposta05 = resposta05;
+
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
@@ -259,6 +265,7 @@ for (let i = 1; i < itensDomesticos.length; i += 2) {
     resposta06.push(itensDomesticos[i]);
 }
 export const resposta06 = resposta06;
+
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
@@ -272,6 +279,7 @@ for (let i = 0; i < itensDomesticos.length; i++) {
 }
 export const resposta07 = resposta07;
 
+
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
 (com contador) para criar um novo array contendo os itens em ordem reversa.
@@ -282,10 +290,12 @@ for (let i = itensDomesticos.length - 1; i >= 0; i--) {
 }
 export const resposta08 = resposta08;
 
+
 const petsExoticos = [
   "lagarto", "tarântula", "hamster", "cacatua", "iguana",
   "escorpião", "sagui", "jacaré", "serpente", "camaleão"
 ]
+
 
 /* Questão 09
 Dada a lista de nomes de pets exóticos acima, utilize um laço de repetição for...of
@@ -296,6 +306,7 @@ for (let pet of petsExoticos) {
     resposta09.push(pet.toUpperCase());
 }
 export const resposta09 = resposta09;
+
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
@@ -309,17 +320,19 @@ for (let pet of petsExoticos) {
 }
 export const resposta10 = resposta10;
 
+
 /* Questão 11
 Continuando com a lista de pets exóticos, use um laço de repetição for...of para
 contar quantos nomes têm mais de 7 letras.
 */
-let contador11 = 0;
+let resposta11 = 0;
 for (let pet of petsExoticos) {
     if (pet.length > 7) {
-        contador11++;
+        resposta11++;
     }
 }
-export const resposta11 = contador11;
+export const resposta11 = resposta11;
+
 
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
