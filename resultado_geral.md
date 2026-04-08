@@ -1,4 +1,4 @@
-Data de atualização: Dia 07/04/2026 às 15:17:59
+Data de atualização: Dia 08/04/2026 às 14:31:27
  
 
 | Aluno | Qtd. questões acertadas (de 15) | Nota total |
@@ -16,7 +16,7 @@ Data de atualização: Dia 07/04/2026 às 15:17:59
 | Bruno Gustavo (buenots) | 22 | 100.00 |
 | Caique Albuquerque (caique-albuquerque-nave) | 0 | 0.00 |
 | Cauê Ferreira (caue-ferreira-nave) | 14 | 96.00 |
-| Davi Barboza (DaviBarboza98) | 12 | 80.00 |
+| Davi Barboza (DaviBarboza98) | 21 | 100.00 |
 | Davi Neres (davi-neres-nave) | 22 | 100.00 |
 | Debora Vitória (debora-vitoria-nave) | 16 | 100.00 |
 | Eduardo Oliveira (dudu-015) | 11 | 78.67 |
@@ -32,7 +32,7 @@ Data de atualização: Dia 07/04/2026 às 15:17:59
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
 | Kamylle Vitória (Kamylle-Vitoria-Nave) | 12 | 80.00 |
 | Letícia Domingos (letletdaluz) | 22 | 100.00 |
-| Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
+| Luan Murilo (luan-murilo-nave) | 10 | 66.67 |
 | Marcus Vinícios (marcus-vinicios-nave) | 16 | 100.00 |
 | Mateus Antônio (mateusnave) | 21 | 100.00 |
 | Matheus Thiago (teteuzo) | 11 | 74.67 |
