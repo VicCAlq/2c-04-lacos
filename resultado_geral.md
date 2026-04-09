@@ -1,4 +1,4 @@
-Data de atualização: Dia 09/04/2026 às 01:24:09
+Data de atualização: Dia 09/04/2026 às 20:43:23
  
 
 | Aluno | Qtd. questões acertadas (de 15) | Nota total |
@@ -32,7 +32,7 @@ Data de atualização: Dia 09/04/2026 às 01:24:09
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
 | Kamylle Vitória (Kamylle-Vitoria-Nave) | 12 | 80.00 |
 | Letícia Domingos (letletdaluz) | 22 | 100.00 |
-| Luan Murilo (luan-murilo-nave) | 10 | 66.67 |
+| Luan Murilo (luan-murilo-nave) | 22 | 100.00 |
 | Marcus Vinícios (marcus-vinicios-nave) | 16 | 100.00 |
 | Mateus Antônio (mateusnave) | 21 | 100.00 |
 | Matheus Thiago (teteuzo) | 11 | 74.67 |
