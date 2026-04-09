@@ -188,162 +188,149 @@ MÍNIMO NECESSÁRIO PARA NOTA MÁXIMA: 8 questões
 Utilizando um laço de repetição for, calcule a soma de todos os números de 1 a 100
 (incluindo 100). Armazene o resultado na variável resposta01.
 */
-let soma01 = 0;
+let somaAteCem = 0;
 for (let i = 1; i <= 100; i++) {
-    soma01 += i;
+    somaAteCem += i;
 }
-export const resposta01 = soma01;
-
+export const resposta01 = somaAteCem;
 
 /* Questão 02
 Utilizando um laço de repetição for, calcule quantos números ímpares existem entre
 1 e 50 (incluindo o 1 e 50). Armazene a quantidade encontrada na variável resposta02.
 */
-let impares = 0;
+let qtdImparesAteCinquenta = 0;
 for (let i = 1; i <= 50; i += 2) {
-    impares++;
+    qtdImparesAteCinquenta++;
 }
-export const resposta02 = impares;
-
+export const resposta02 = qtdImparesAteCinquenta;
 
 /* Questão 03
 Utilizando um laço de repetição for, calcule a soma de todos os números pares
 negativos entre -100 e -1 (incluindo o -100). Armazene o resultado na 
 variável resposta03.
 */
-let soma03 = 0;
+let somaParesNegativos = 0;
 for (let i = -100; i <= -2; i += 2) {
-    soma03 += i;
+    somaParesNegativos += i;
 }
-export const resposta03 = soma03;
-
+export const resposta03 = somaParesNegativos;
 
 /* Questão 04
 Utilizando um laço de repetição for, calcule a média aritmética de todos os números
 múltiplos de 3 entre 1 e 200 (incluindo os limites). Armazene o resultado 
 (pode ser decimal) na variável resposta04.
 */
-let soma04 = 0;
-let contador04 = 0;
+let somaMultiplosTres = 0;
+let contadorMultiplosTres = 0;
 for (let i = 1; i <= 200; i++) {
     if (i % 3 === 0) {
-        soma04 += i;
-        contador04++;
+        somaMultiplosTres += i;
+        contadorMultiplosTres++;
     }
 }
-export const resposta04 = soma04 / contador04;
-
+export const resposta04 = somaMultiplosTres / contadorMultiplosTres;
 
 // Lista para as questões 5 a 8:
 const itensDomesticos = [
   "mesa", "cadeira", "sofá", "cortina", "tapete", 
   "abajur", "copo", "prato", "panela", "cafeteira",
   "espelho", "quadro", "vaso", "relógio", "almofada"
-]
-
+];
 
 /* Questão 05
 Dada a lista de itens domésticos acima, utilize um laço de repetição for (com contador)
 para criar um novo array contendo todos os itens que começam com a letra "c".
 */
-let resposta05 = [];
+let itensComC = [];
 for (let i = 0; i < itensDomesticos.length; i++) {
     if (itensDomesticos[i][0] === "c") {
-        resposta05.push(itensDomesticos[i]);
+        itensComC.push(itensDomesticos[i]);
     }
 }
-export const resposta05 = resposta05;
-
+export const resposta05 = itensComC;
 
 /* Questão 06
 Utilizando a mesma lista de itens domésticos da questão anterior, use um laço de
 repetição for (com contador) para criar um novo array contendo apenas os itens que
 estão nos índices ímpares da lista original (índices 1, 3, 5, 7, 9, 11, 13).
 */
-let resposta06 = [];
+let itensIndicesImpares = [];
 for (let i = 1; i < itensDomesticos.length; i += 2) {
-    resposta06.push(itensDomesticos[i]);
+    itensIndicesImpares.push(itensDomesticos[i]);
 }
-export const resposta06 = resposta06;
-
+export const resposta06 = itensIndicesImpares;
 
 /* Questão 07
 Seguindo com a lista de itens domésticos, use um laço de repetição for (com contador)
 para criar um novo array contendo os itens com mais de 6 letras.
 */
-let resposta07 = [];
+let itensMaisDeSeisLetras = [];
 for (let i = 0; i < itensDomesticos.length; i++) {
     if (itensDomesticos[i].length > 6) {
-        resposta07.push(itensDomesticos[i]);
+        itensMaisDeSeisLetras.push(itensDomesticos[i]);
     }
 }
-export const resposta07 = resposta07;
-
+export const resposta07 = itensMaisDeSeisLetras;
 
 /* Questão 08
 Finalizando com a lista de itens domésticos abaixo, use um laço de repetição for 
 (com contador) para criar um novo array contendo os itens em ordem reversa.
 */
-let resposta08 = [];
+let itensReversos = [];
 for (let i = itensDomesticos.length - 1; i >= 0; i--) {
-    resposta08.push(itensDomesticos[i]);
+    itensReversos.push(itensDomesticos[i]);
 }
-export const resposta08 = resposta08;
-
+export const resposta08 = itensReversos;
 
 const petsExoticos = [
   "lagarto", "tarântula", "hamster", "cacatua", "iguana",
   "escorpião", "sagui", "jacaré", "serpente", "camaleão"
-]
-
+];
 
 /* Questão 09
 Dada a lista de nomes de pets exóticos acima, utilize um laço de repetição for...of
 para criar um novo array contendo todos os nomes em letras maiúsculas.
 */
-let resposta09 = [];
+let petsMaiusculos = [];
 for (let pet of petsExoticos) {
-    resposta09.push(pet.toUpperCase());
+    petsMaiusculos.push(pet.toUpperCase());
 }
-export const resposta09 = resposta09;
-
+export const resposta09 = petsMaiusculos;
 
 /* Questão 10
 Com a mesma lista de pets exóticos acima, use um laço de repetição for...of para
 criar um novo array contendo apenas os nomes que possuem a letra "r" em qualquer posição.
 */
-let resposta10 = [];
+let petsComR = [];
 for (let pet of petsExoticos) {
     if (pet.includes("r")) {
-        resposta10.push(pet);
+        petsComR.push(pet);
     }
 }
-export const resposta10 = resposta10;
-
+export const resposta10 = petsComR;
 
 /* Questão 11
 Continuando com a lista de pets exóticos, use um laço de repetição for...of para
 contar quantos nomes têm mais de 7 letras.
 */
-let resposta11 = 0;
+let qtdPetsMaisSeteLetras = 0;
 for (let pet of petsExoticos) {
     if (pet.length > 7) {
-        resposta11++;
+        qtdPetsMaisSeteLetras++;
     }
 }
-export const resposta11 = resposta11;
-
+export const resposta11 = qtdPetsMaisSeteLetras;
 
 /* Questão 12
 Encerrando com a lista de pets exóticos, use um laço de repetição for...of para
 encontrar o primeiro nome que começa com a letra "s". Se encontrar, armazene este
 nome na variável resposta12. Se não encontrar nenhum, armazene a string "não encontrado".
 */
-let resposta12 = "não encontrado";
+let primeiroPetComS = "não encontrado";
 for (let pet of petsExoticos) {
     if (pet[0] === "s") {
-        resposta12 = pet;
+        primeiroPetComS = pet;
         break;
     }
 }
-export const resposta12 = resposta12;
+export const resposta12 = primeiroPetComS;
