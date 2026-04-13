@@ -1,4 +1,4 @@
-Data de atualização: Dia 09/04/2026 às 20:43:23
+Data de atualização: Dia 12/04/2026 às 23:55:38
  
 
 | Aluno | Qtd. questões acertadas (de 15) | Nota total |
@@ -29,7 +29,7 @@ Data de atualização: Dia 09/04/2026 às 20:43:23
 | Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 22 | 100.00 |
 | Jeniffer Dantas (jeniffer-dantas-nave) | 11 | 78.67 |
 | João Barros (Joao-Barros-NAVE) | 0 | 0.00 |
-| Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
+| Jonatas Vinícius (jonatasvinicius67) | 22 | 100.00 |
 | Kamylle Vitória (Kamylle-Vitoria-Nave) | 12 | 80.00 |
 | Letícia Domingos (letletdaluz) | 22 | 100.00 |
 | Luan Murilo (luan-murilo-nave) | 22 | 100.00 |
