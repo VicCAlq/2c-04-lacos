@@ -175,7 +175,8 @@ de 1 a 32. Envie o valor resultante na variável resposta01.
 */
 // Escreva o código da solução abaixo:
 let respostarrw = 0
-let i = 0
+let i = 1
+
 while (i <= 32) {
   respostarrw += i
   i++
@@ -188,8 +189,9 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 respostarrw = 0
-i = 0
-while(i <= 50) {
+i = 1
+
+while (i <= 50) {
   respostarrw += i
   i += 2
 }
@@ -203,13 +205,15 @@ const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
 */
 // Escreva o código da solução abaixo:
 const numeros = [15, -3, 8, -12, 0, -7, 22, -1, 9, -5, 18, -2]
+
 respostarrw = 0
 i = 0
-while(i <= numeros.length) {
-    i++
+
+while (i < numeros.length) {
   if (numeros[i] < 0) {
     respostarrw++
   }
+  i++
 }
 export const resposta03 = respostarrw
 
@@ -218,14 +222,14 @@ Utilizando um laço de repetição while, faça a soma de todos os múltiplos de
 entre 1 e 100 (incluindo 100). Armazene o resultado na variável resposta04.
 */
 // Escreva o código da solução abaixo:
-respostarrw = 0 
-i = 0
-while(i <= 100){
-    if(i % 7 == 0){
-        respostarrw += i
-        console.log(i)
-    }
-    i++
+respostarrw = 0
+i = 1
+
+while (i <= 100) {
+  if (i % 7 === 0) {
+    respostarrw += i
+  }
+  i++
 }
 export const resposta04 = respostarrw
 
@@ -247,11 +251,11 @@ na variável resposta05.
 */
 // Escreva o código da solução abaixo:
 respostarrw = []
-i = nomes.length -1
+i = nomes.length - 1
 
-while(i > -1){ 
-  novoArray.push(nomes[i])
-  i-- 
+while (i >= 0) {
+  respostarrw.push(nomes[i])
+  i--
 }
 export const resposta05 = respostarrw
 
@@ -263,9 +267,10 @@ Armazene o novo array na variável resposta06.
 // Escreva o código da solução abaixo:
 respostarrw = []
 i = 0
-while(i <= nomes.length - 1){
-    respostarrw.push(nomes[i])
-    i+=2
+
+while (i < nomes.length) {
+  respostarrw.push(nomes[i])
+  i += 2
 }
 export const resposta06 = respostarrw
 
@@ -278,8 +283,8 @@ que possuem 5 letras ou menos. Armazene o novo array na variável resposta07.
 respostarrw = []
 i = 0
 
-while (i <= nomes.length - 1) {
-  if(nomes[i].length <= 5) {
+while (i < nomes.length) {
+  if (nomes[i].length <= 5) {
     respostarrw.push(nomes[i])
   }
   i++
@@ -293,38 +298,11 @@ escritos em letras maiúsculas. Armazene o novo array na variável resposta08.
 // Escreva o código da solução abaixo:
 respostarrw = []
 i = 0
-function conversao(str) {
-    const minusculas = "abcdefghijklmnopqrstuvwxyz"
-    const maiusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-    let resultado = ""
-
-    for (let j = 0; j <= str.length - 1; j++) {
-        let convertido = str[j]
-
-        for (let jota = 0; jota < minusculas.length; jota++) {
-            if (str[j] === minusculas[jota]) {
-                convertido = maiusculas[jota]
-                break
-            }
-        }
-
-        resultado += convertido
-    }
-
-    return resultado
-}
-while(i <= nomes.length - 1) {
-  respostarrw.push(conversao(nomes[i]))
+while (i < nomes.length) {
+  respostarrw.push(nomes[i].toUpperCase())
   i++
 }
-//ou
-// respostarrw = []
-// i = 0
-// while(i <= nomes.length - 1) {
-//   respostarrw.push(nomes[i].toUpperCase())
-//   i++
-// }
 export const resposta08 = respostarrw
 
 /* Questão 09
@@ -333,8 +311,25 @@ que começam com vogal (considere A, E, I, O, U, inclusive acentuadas se houver)
 Armazene o novo array na variável resposta09.
 */
 // Escreva o código da solução abaixo:
+respostarrw = []
+i = 0
 
-export const resposta09 = false
+while (i < nomes.length) {
+  let primeiraLetra = nomes[i][0].toLowerCase()
+
+  if (
+    primeiraLetra === "a" ||
+    primeiraLetra === "e" ||
+    primeiraLetra === "i" ||
+    primeiraLetra === "o" ||
+    primeiraLetra === "u"
+  ) {
+    respostarrw.push(nomes[i])
+  }
+
+  i++
+}
+export const resposta09 = respostarrw
 
 /* Questão 10
 Finalizando com a lista de nomes, encontre o nome mais longo da lista.
